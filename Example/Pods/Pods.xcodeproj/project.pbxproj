@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D9C4B5E55AEC3CC2730238D51A0B17 /* Pods-MMADPay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E98CB89F603CAD3751CD733F56CC4A65 /* Pods-MMADPay_Example-dummy.m */; };
+		0C6F9059CE3FA321DCA6AAF8B765EC79 /* MMADPayUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DF86CB86670204B32602EE8241A2F57 /* MMADPayUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F1AA6AAC944909AF630311B43DA48A4 /* MMADPayPaymentModelParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF513B7B75CD0B0434155632B9C600F /* MMADPayPaymentModelParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15FDED33D5C55A487DF1C11220360436 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		19DA44976194610798E6CAE9E96A2DD4 /* MMADPayPaymentModelParams.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBEA652D4AEDDE4367DD2022C4D75CF /* MMADPayPaymentModelParams.m */; };
+		1FB1AD827D4915B6B38D8AB27E95F29B /* MMADPayCreatePostData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5368686FC85385BDDA5A7FF3F9AC65BC /* MMADPayCreatePostData.m */; };
+		266E36EA235ED7DC8070317BAF244DAB /* MMADPayWebserviceHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B28685E8737369E4FFFC905771047AC /* MMADPayWebserviceHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31BD4FB207BDE4F83CFF4E844E8DFBEE /* Pods-MMADPay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3A5E9764FFCFA9094CA2D89BCF36F5 /* Pods-MMADPay_Tests-dummy.m */; };
+		45A7D8780264FAFCEC96259F97BD8DD9 /* MMADPayCreatePostData.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCCBD1E312450831358254220F6FBB1 /* MMADPayCreatePostData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CA2E7FDE6656286744B97C947109F93 /* Pods-MMADPay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8EE652B34C951B0C51855AF989391B /* Pods-MMADPay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		618649F0B4EC3CB57494C98723097958 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		734AB5C5421D2766001FEA3266C919FA /* MMADPayConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F27F64193193C9C2C2BE6167AF2CC83 /* MMADPayConstants.m */; };
+		77226C1D9CFF47F65A9403EF1ABF5CC1 /* MMADPayHashes.h in Headers */ = {isa = PBXBuildFile; fileRef = E89021F273CAAB48FF42B1DCE39DFE70 /* MMADPayHashes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		872287111DF7EACF0018F251 /* MMADPayMainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27BE9C44228841397FDD4535F54FB77 /* MMADPayMainStoryboard.storyboard */; };
+		8B75524B04D7042F9BFBDEA4B76C6DD8 /* MMADPayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 123F8DD0ED9AE4A1A83B87B32E7AEC51 /* MMADPayUtils.m */; };
+		9ED558244AC3F1C688680A132D0C8B78 /* MMADPayValidations.h in Headers */ = {isa = PBXBuildFile; fileRef = DFC1A46B895DF7A2EBDADCEAB849EE8D /* MMADPayValidations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF42723EE727975F8ECE5BF95A5BBC8D /* MMADPayHashes.m in Sources */ = {isa = PBXBuildFile; fileRef = E85371C177D5BF966BB9ACAE9FD3D5C0 /* MMADPayHashes.m */; };
+		BECA187277702AAC31A73551549C6435 /* MMADPayPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 855E7D707D1219898A268E3C5046775F /* MMADPayPaymentViewController.m */; };
+		C5F188CBEDE946A2E78910356AA92A52 /* Pods-MMADPay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5666D25E5BBA5BD94A90ABB24DD4FDF /* Pods-MMADPay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1F7B968B7B5F768D4A4CC44ABD13437 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D315AE7578C33286E707AFB54FA025C5 /* MMADPayWebserviceHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8E7E4FADE398435A56C075ABAF09E /* MMADPayWebserviceHandler.m */; };
+		DA0EDABA32D61959E710901884A9B422 /* MMADPayValidations.m in Sources */ = {isa = PBXBuildFile; fileRef = FD493A84405F6EFB9703B6076425A44E /* MMADPayValidations.m */; };
+		E258B3DD4E4553556970B044E785A9FB /* MMADPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D42989D9380D55282A49C08769B6A6E /* MMADPay-dummy.m */; };
+		E41A79173AE129269F59472D655DFB32 /* MMADPay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88FFD27EAE60FBD94A921EEA5405B396 /* MMADPay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F00A43D800860BC1C1E93EC3A31820FA /* MMADPayPaymentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF405563CCD024B0EB1425470BA3B5D /* MMADPayPaymentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6C7BA05BA3014AE2A6BC1F92BDDFE9E /* MMADPayConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 0960EA31BDA54EBC6653E99BFDF07770 /* MMADPayConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1494DBC9A6DE1012975B99957110ED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B601FB088D04259D0B1172C4ADBAF21;
+			remoteInfo = MMADPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0960EA31BDA54EBC6653E99BFDF07770 /* MMADPayConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayConstants.h; sourceTree = "<group>"; };
+		0F27F64193193C9C2C2BE6167AF2CC83 /* MMADPayConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayConstants.m; sourceTree = "<group>"; };
+		123F8DD0ED9AE4A1A83B87B32E7AEC51 /* MMADPayUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayUtils.m; sourceTree = "<group>"; };
+		1CF405563CCD024B0EB1425470BA3B5D /* MMADPayPaymentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayPaymentViewController.h; sourceTree = "<group>"; };
+		2210C2924695E4C6E3B5661A967C2EEE /* Pods-MMADPay_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMADPay_Tests-resources.sh"; sourceTree = "<group>"; };
+		2D5B8162EEB130E23645E8DE917E53D9 /* Pods_MMADPay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMADPay_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F3DF15B341282387CD364F94653DFC /* Pods-MMADPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMADPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		35A8501A4CF391CD028F82FC4AA2D6A3 /* Pods-MMADPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMADPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3AA6D0F43871EAA4C87A6F16491A1278 /* Pods-MMADPay_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMADPay_Example-resources.sh"; sourceTree = "<group>"; };
+		3CF513B7B75CD0B0434155632B9C600F /* MMADPayPaymentModelParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayPaymentModelParams.h; sourceTree = "<group>"; };
+		434A37B1CFE329A586731135927E5E96 /* Pods_MMADPay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMADPay_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		495057261C2E70ED6431D2986CAF035C /* Pods-MMADPay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMADPay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5082FB6DEF73383DCBB67C362EC55AEA /* MMADPay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMADPay.xcconfig; sourceTree = "<group>"; };
+		5368686FC85385BDDA5A7FF3F9AC65BC /* MMADPayCreatePostData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayCreatePostData.m; sourceTree = "<group>"; };
+		5A82191F4028F66C85A7F3E98FDF877D /* MMADPay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MMADPay.modulemap; sourceTree = "<group>"; };
+		5D42989D9380D55282A49C08769B6A6E /* MMADPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMADPay-dummy.m"; sourceTree = "<group>"; };
+		5F508A047629F360F347AAF9A5C5BE98 /* Pods-MMADPay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMADPay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6B28685E8737369E4FFFC905771047AC /* MMADPayWebserviceHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayWebserviceHandler.h; sourceTree = "<group>"; };
+		6D3A5E9764FFCFA9094CA2D89BCF36F5 /* Pods-MMADPay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMADPay_Tests-dummy.m"; sourceTree = "<group>"; };
+		72776533262E4C7E0AEB4934E5596861 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76AA8EF4F151B8685A54297FEC665444 /* Pods-MMADPay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMADPay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		855E7D707D1219898A268E3C5046775F /* MMADPayPaymentViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayPaymentViewController.m; sourceTree = "<group>"; };
+		883FAFC5C4853322F75A8DA6C0ECD3D2 /* Pods-MMADPay_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMADPay_Example-frameworks.sh"; sourceTree = "<group>"; };
+		88FFD27EAE60FBD94A921EEA5405B396 /* MMADPay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMADPay-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		977C628E1AF9C661F8EE317CC287044C /* MMADPay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMADPay-prefix.pch"; sourceTree = "<group>"; };
+		9DF86CB86670204B32602EE8241A2F57 /* MMADPayUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayUtils.h; sourceTree = "<group>"; };
+		A3F5CC2353E40250CE1FDA0095DC71BD /* Pods-MMADPay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMADPay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ADAD7FFAC68CE716D6EDED5098FCDCF3 /* Pods-MMADPay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MMADPay_Tests.modulemap"; sourceTree = "<group>"; };
+		AEA5AD73D901158D80E2E830A3D52132 /* Pods-MMADPay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMADPay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B45C4307C1A293EC8CF3AF51BB050C5E /* Pods-MMADPay_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMADPay_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BBCCBD1E312450831358254220F6FBB1 /* MMADPayCreatePostData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayCreatePostData.h; sourceTree = "<group>"; };
+		BC18807D2A8646EFD40D04FA0CEEE508 /* Pods-MMADPay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MMADPay_Example.modulemap"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0BF4E3DF5FA3A607837D6EB8D2E7BBD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27BE9C44228841397FDD4535F54FB77 /* MMADPayMainStoryboard.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = MMADPayMainStoryboard.storyboard; sourceTree = "<group>"; };
+		D2D12AFC6C8CF4474FEFE8A33CFD4CEA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBFF4543D43B75BBC5C8FCD3FD6BA087 /* MMADPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMADPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8EE652B34C951B0C51855AF989391B /* Pods-MMADPay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMADPay_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DFC1A46B895DF7A2EBDADCEAB849EE8D /* MMADPayValidations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayValidations.h; sourceTree = "<group>"; };
+		E10539513165C394908539CC4DED447C /* Pods-MMADPay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMADPay_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E5666D25E5BBA5BD94A90ABB24DD4FDF /* Pods-MMADPay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMADPay_Example-umbrella.h"; sourceTree = "<group>"; };
+		E85371C177D5BF966BB9ACAE9FD3D5C0 /* MMADPayHashes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayHashes.m; sourceTree = "<group>"; };
+		E89021F273CAAB48FF42B1DCE39DFE70 /* MMADPayHashes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayHashes.h; sourceTree = "<group>"; };
+		E98CB89F603CAD3751CD733F56CC4A65 /* Pods-MMADPay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMADPay_Example-dummy.m"; sourceTree = "<group>"; };
+		EDBEA652D4AEDDE4367DD2022C4D75CF /* MMADPayPaymentModelParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayPaymentModelParams.m; sourceTree = "<group>"; };
+		F0B8E7E4FADE398435A56C075ABAF09E /* MMADPayWebserviceHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayWebserviceHandler.m; sourceTree = "<group>"; };
+		FD493A84405F6EFB9703B6076425A44E /* MMADPayValidations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayValidations.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7905E16FFEEBDE071E6D41BA996F2955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618649F0B4EC3CB57494C98723097958 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D71D0D928D64E18DDF0EC54CCBE1AD4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F7B968B7B5F768D4A4CC44ABD13437 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECECAE8C7A0D07ED8A44878CF19C4CD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FDED33D5C55A487DF1C11220360436 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03B4F29DEDC2EE211A0C2E737CE913CB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0960EA31BDA54EBC6653E99BFDF07770 /* MMADPayConstants.h */,
+				0F27F64193193C9C2C2BE6167AF2CC83 /* MMADPayConstants.m */,
+				BBCCBD1E312450831358254220F6FBB1 /* MMADPayCreatePostData.h */,
+				5368686FC85385BDDA5A7FF3F9AC65BC /* MMADPayCreatePostData.m */,
+				E89021F273CAAB48FF42B1DCE39DFE70 /* MMADPayHashes.h */,
+				E85371C177D5BF966BB9ACAE9FD3D5C0 /* MMADPayHashes.m */,
+				D27BE9C44228841397FDD4535F54FB77 /* MMADPayMainStoryboard.storyboard */,
+				3CF513B7B75CD0B0434155632B9C600F /* MMADPayPaymentModelParams.h */,
+				EDBEA652D4AEDDE4367DD2022C4D75CF /* MMADPayPaymentModelParams.m */,
+				1CF405563CCD024B0EB1425470BA3B5D /* MMADPayPaymentViewController.h */,
+				855E7D707D1219898A268E3C5046775F /* MMADPayPaymentViewController.m */,
+				9DF86CB86670204B32602EE8241A2F57 /* MMADPayUtils.h */,
+				123F8DD0ED9AE4A1A83B87B32E7AEC51 /* MMADPayUtils.m */,
+				DFC1A46B895DF7A2EBDADCEAB849EE8D /* MMADPayValidations.h */,
+				FD493A84405F6EFB9703B6076425A44E /* MMADPayValidations.m */,
+				6B28685E8737369E4FFFC905771047AC /* MMADPayWebserviceHandler.h */,
+				F0B8E7E4FADE398435A56C075ABAF09E /* MMADPayWebserviceHandler.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		16B8C8E40FE834E0A15BFDAAB9DDE8F4 /* MMADPay */ = {
+			isa = PBXGroup;
+			children = (
+				03B4F29DEDC2EE211A0C2E737CE913CB /* Classes */,
+			);
+			path = MMADPay;
+			sourceTree = "<group>";
+		};
+		403FB6EEB00A17702E78B42B00292D2F /* Pods-MMADPay_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				72776533262E4C7E0AEB4934E5596861 /* Info.plist */,
+				ADAD7FFAC68CE716D6EDED5098FCDCF3 /* Pods-MMADPay_Tests.modulemap */,
+				495057261C2E70ED6431D2986CAF035C /* Pods-MMADPay_Tests-acknowledgements.markdown */,
+				5F508A047629F360F347AAF9A5C5BE98 /* Pods-MMADPay_Tests-acknowledgements.plist */,
+				6D3A5E9764FFCFA9094CA2D89BCF36F5 /* Pods-MMADPay_Tests-dummy.m */,
+				B45C4307C1A293EC8CF3AF51BB050C5E /* Pods-MMADPay_Tests-frameworks.sh */,
+				2210C2924695E4C6E3B5661A967C2EEE /* Pods-MMADPay_Tests-resources.sh */,
+				DF8EE652B34C951B0C51855AF989391B /* Pods-MMADPay_Tests-umbrella.h */,
+				AEA5AD73D901158D80E2E830A3D52132 /* Pods-MMADPay_Tests.debug.xcconfig */,
+				35A8501A4CF391CD028F82FC4AA2D6A3 /* Pods-MMADPay_Tests.release.xcconfig */,
+			);
+			name = "Pods-MMADPay_Tests";
+			path = "Target Support Files/Pods-MMADPay_Tests";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9F65595EDA07231DE068FF6576FB3128 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BE8239C427A154D1E6362DD47C46C5C7 /* Products */,
+				F7B194E01EC87A5EBBB3CC9AFB221E5A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		839DBE4EC4F2803BAA1F0761E2B04711 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2D12AFC6C8CF4474FEFE8A33CFD4CEA /* Info.plist */,
+				5A82191F4028F66C85A7F3E98FDF877D /* MMADPay.modulemap */,
+				5082FB6DEF73383DCBB67C362EC55AEA /* MMADPay.xcconfig */,
+				5D42989D9380D55282A49C08769B6A6E /* MMADPay-dummy.m */,
+				977C628E1AF9C661F8EE317CC287044C /* MMADPay-prefix.pch */,
+				88FFD27EAE60FBD94A921EEA5405B396 /* MMADPay-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MMADPay";
+			sourceTree = "<group>";
+		};
+		8F689B2C08B0CED5727A2A928027A0E5 /* MMADPay */ = {
+			isa = PBXGroup;
+			children = (
+				16B8C8E40FE834E0A15BFDAAB9DDE8F4 /* MMADPay */,
+				839DBE4EC4F2803BAA1F0761E2B04711 /* Support Files */,
+			);
+			name = MMADPay;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9F65595EDA07231DE068FF6576FB3128 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F689B2C08B0CED5727A2A928027A0E5 /* MMADPay */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE8239C427A154D1E6362DD47C46C5C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBFF4543D43B75BBC5C8FCD3FD6BA087 /* MMADPay.framework */,
+				2D5B8162EEB130E23645E8DE917E53D9 /* Pods_MMADPay_Example.framework */,
+				434A37B1CFE329A586731135927E5E96 /* Pods_MMADPay_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0C6B1036A2B772D6937A6FC73C78508 /* Pods-MMADPay_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D0BF4E3DF5FA3A607837D6EB8D2E7BBD /* Info.plist */,
+				BC18807D2A8646EFD40D04FA0CEEE508 /* Pods-MMADPay_Example.modulemap */,
+				A3F5CC2353E40250CE1FDA0095DC71BD /* Pods-MMADPay_Example-acknowledgements.markdown */,
+				76AA8EF4F151B8685A54297FEC665444 /* Pods-MMADPay_Example-acknowledgements.plist */,
+				E98CB89F603CAD3751CD733F56CC4A65 /* Pods-MMADPay_Example-dummy.m */,
+				883FAFC5C4853322F75A8DA6C0ECD3D2 /* Pods-MMADPay_Example-frameworks.sh */,
+				3AA6D0F43871EAA4C87A6F16491A1278 /* Pods-MMADPay_Example-resources.sh */,
+				E5666D25E5BBA5BD94A90ABB24DD4FDF /* Pods-MMADPay_Example-umbrella.h */,
+				30F3DF15B341282387CD364F94653DFC /* Pods-MMADPay_Example.debug.xcconfig */,
+				E10539513165C394908539CC4DED447C /* Pods-MMADPay_Example.release.xcconfig */,
+			);
+			name = "Pods-MMADPay_Example";
+			path = "Target Support Files/Pods-MMADPay_Example";
+			sourceTree = "<group>";
+		};
+		F7B194E01EC87A5EBBB3CC9AFB221E5A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0C6B1036A2B772D6937A6FC73C78508 /* Pods-MMADPay_Example */,
+				403FB6EEB00A17702E78B42B00292D2F /* Pods-MMADPay_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B44BD4CCF5BCEA201EE044464EB92EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA2E7FDE6656286744B97C947109F93 /* Pods-MMADPay_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8355574DA0DAA9F9C75D7DC7859B46DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F188CBEDE946A2E78910356AA92A52 /* Pods-MMADPay_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50AAF548BCFEB3DDA796D01339212BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41A79173AE129269F59472D655DFB32 /* MMADPay-umbrella.h in Headers */,
+				F6C7BA05BA3014AE2A6BC1F92BDDFE9E /* MMADPayConstants.h in Headers */,
+				45A7D8780264FAFCEC96259F97BD8DD9 /* MMADPayCreatePostData.h in Headers */,
+				77226C1D9CFF47F65A9403EF1ABF5CC1 /* MMADPayHashes.h in Headers */,
+				0F1AA6AAC944909AF630311B43DA48A4 /* MMADPayPaymentModelParams.h in Headers */,
+				F00A43D800860BC1C1E93EC3A31820FA /* MMADPayPaymentViewController.h in Headers */,
+				0C6F9059CE3FA321DCA6AAF8B765EC79 /* MMADPayUtils.h in Headers */,
+				9ED558244AC3F1C688680A132D0C8B78 /* MMADPayValidations.h in Headers */,
+				266E36EA235ED7DC8070317BAF244DAB /* MMADPayWebserviceHandler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		655E352235D0C6A28EF6BA85BE1E43B1 /* Pods-MMADPay_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63DAD45493E0004692A0E73789E2B563 /* Build configuration list for PBXNativeTarget "Pods-MMADPay_Example" */;
+			buildPhases = (
+				532AA594D0676046A9C18D7C48B0B316 /* Sources */,
+				7905E16FFEEBDE071E6D41BA996F2955 /* Frameworks */,
+				8355574DA0DAA9F9C75D7DC7859B46DE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A561EF65D5037A1FA39FEF6B22D14E59 /* PBXTargetDependency */,
+			);
+			name = "Pods-MMADPay_Example";
+			productName = "Pods-MMADPay_Example";
+			productReference = 2D5B8162EEB130E23645E8DE917E53D9 /* Pods_MMADPay_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B601FB088D04259D0B1172C4ADBAF21 /* MMADPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63DB6844321CBF9ADC760C919FCF3B30 /* Build configuration list for PBXNativeTarget "MMADPay" */;
+			buildPhases = (
+				C869577B8B6AF8C4429355D0CDF6FC2A /* Sources */,
+				ECECAE8C7A0D07ED8A44878CF19C4CD1 /* Frameworks */,
+				B50AAF548BCFEB3DDA796D01339212BF /* Headers */,
+				872287101DF7EAC80018F251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMADPay;
+			productName = MMADPay;
+			productReference = DBFF4543D43B75BBC5C8FCD3FD6BA087 /* MMADPay.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFFB23D82F0D586E0837E89CCD7FD213 /* Pods-MMADPay_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00853C3AD71591AE99B9A38AB7E6F7A0 /* Build configuration list for PBXNativeTarget "Pods-MMADPay_Tests" */;
+			buildPhases = (
+				4486753EB1970CE6FB5F709A96A191A5 /* Sources */,
+				D71D0D928D64E18DDF0EC54CCBE1AD4F /* Frameworks */,
+				0B44BD4CCF5BCEA201EE044464EB92EE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MMADPay_Tests";
+			productName = "Pods-MMADPay_Tests";
+			productReference = 434A37B1CFE329A586731135927E5E96 /* Pods_MMADPay_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BE8239C427A154D1E6362DD47C46C5C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B601FB088D04259D0B1172C4ADBAF21 /* MMADPay */,
+				655E352235D0C6A28EF6BA85BE1E43B1 /* Pods-MMADPay_Example */,
+				EFFB23D82F0D586E0837E89CCD7FD213 /* Pods-MMADPay_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		872287101DF7EAC80018F251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				872287111DF7EACF0018F251 /* MMADPayMainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4486753EB1970CE6FB5F709A96A191A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BD4FB207BDE4F83CFF4E844E8DFBEE /* Pods-MMADPay_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		532AA594D0676046A9C18D7C48B0B316 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D9C4B5E55AEC3CC2730238D51A0B17 /* Pods-MMADPay_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C869577B8B6AF8C4429355D0CDF6FC2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E258B3DD4E4553556970B044E785A9FB /* MMADPay-dummy.m in Sources */,
+				734AB5C5421D2766001FEA3266C919FA /* MMADPayConstants.m in Sources */,
+				1FB1AD827D4915B6B38D8AB27E95F29B /* MMADPayCreatePostData.m in Sources */,
+				AF42723EE727975F8ECE5BF95A5BBC8D /* MMADPayHashes.m in Sources */,
+				19DA44976194610798E6CAE9E96A2DD4 /* MMADPayPaymentModelParams.m in Sources */,
+				BECA187277702AAC31A73551549C6435 /* MMADPayPaymentViewController.m in Sources */,
+				8B75524B04D7042F9BFBDEA4B76C6DD8 /* MMADPayUtils.m in Sources */,
+				DA0EDABA32D61959E710901884A9B422 /* MMADPayValidations.m in Sources */,
+				D315AE7578C33286E707AFB54FA025C5 /* MMADPayWebserviceHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A561EF65D5037A1FA39FEF6B22D14E59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMADPay;
+			target = 8B601FB088D04259D0B1172C4ADBAF21 /* MMADPay */;
+			targetProxy = E1494DBC9A6DE1012975B99957110ED0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		76276986C8F37BE76DB117A4F706D423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A8501A4CF391CD028F82FC4AA2D6A3 /* Pods-MMADPay_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MMADPay_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MMADPay_Tests/Pods-MMADPay_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MMADPay_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80215A712EBC42FB1AD5047173C289C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5082FB6DEF73383DCBB67C362EC55AEA /* MMADPay.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMADPay/MMADPay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMADPay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMADPay/MMADPay.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MMADPay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B521B88136E92DBA7B359D5E8796AA1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEA5AD73D901158D80E2E830A3D52132 /* Pods-MMADPay_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MMADPay_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MMADPay_Tests/Pods-MMADPay_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MMADPay_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D6620933D33624BB3A8D1DF0B6D0607F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30F3DF15B341282387CD364F94653DFC /* Pods-MMADPay_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MMADPay_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MMADPay_Example/Pods-MMADPay_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MMADPay_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD376E7D44F581601C23FF7B825AC419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5082FB6DEF73383DCBB67C362EC55AEA /* MMADPay.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMADPay/MMADPay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMADPay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMADPay/MMADPay.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MMADPay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED4FC68AB2A4E06C718CFF338F6F156B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F297D2E8AD4B482599AE3A86FA3D02E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E10539513165C394908539CC4DED447C /* Pods-MMADPay_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MMADPay_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MMADPay_Example/Pods-MMADPay_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MMADPay_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00853C3AD71591AE99B9A38AB7E6F7A0 /* Build configuration list for PBXNativeTarget "Pods-MMADPay_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B521B88136E92DBA7B359D5E8796AA1F /* Debug */,
+				76276986C8F37BE76DB117A4F706D423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */,
+				ED4FC68AB2A4E06C718CFF338F6F156B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63DAD45493E0004692A0E73789E2B563 /* Build configuration list for PBXNativeTarget "Pods-MMADPay_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6620933D33624BB3A8D1DF0B6D0607F /* Debug */,
+				F297D2E8AD4B482599AE3A86FA3D02E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63DB6844321CBF9ADC760C919FCF3B30 /* Build configuration list for PBXNativeTarget "MMADPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80215A712EBC42FB1AD5047173C289C3 /* Debug */,
+				DD376E7D44F581601C23FF7B825AC419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

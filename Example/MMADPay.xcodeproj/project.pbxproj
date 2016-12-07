@@ -21,6 +21,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		8722870F1DF7D36E0018F251 /* InfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8722870E1DF7D36E0018F251 /* InfoTableViewCell.m */; };
+		872287131DF7F0F90018F251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 872287121DF7F0F90018F251 /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		CCF14A586A637E3AF8240E45 /* Pods_MMADPay_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF66B44ABEE655C96D1EB04A /* Pods_MMADPay_Example.framework */; };
 /* End PBXBuildFile section */
@@ -57,14 +59,17 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		8722870D1DF7D36E0018F251 /* InfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoTableViewCell.h; sourceTree = "<group>"; };
+		8722870E1DF7D36E0018F251 /* InfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoTableViewCell.m; sourceTree = "<group>"; };
+		872287121DF7F0F90018F251 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9D0FC50C1E291766055F20FB /* Pods-MMADPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMADPay_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMADPay_Example/Pods-MMADPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A3665F7DBFDCBBFE20AEC962 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A3665F7DBFDCBBFE20AEC962 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AE0C4E29ACA8B30E5F23E800 /* Pods-MMADPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMADPay_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMADPay_Tests/Pods-MMADPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CD1764A377EDA8E050528121 /* Pods-MMADPay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMADPay_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMADPay_Tests/Pods-MMADPay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CD229050DF38F403B5C20656 /* MMADPay.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MMADPay.podspec; path = ../MMADPay.podspec; sourceTree = "<group>"; };
+		CD229050DF38F403B5C20656 /* MMADPay.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MMADPay.podspec; path = ../MMADPay.podspec; sourceTree = "<group>"; };
 		CF66B44ABEE655C96D1EB04A /* Pods_MMADPay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMADPay_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD504BD00513C908D90B03C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FD504BD00513C908D90B03C8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,9 +135,12 @@
 		6003F593195388D20070C39A /* Example for MMADPay */ = {
 			isa = PBXGroup;
 			children = (
+				8722870D1DF7D36E0018F251 /* InfoTableViewCell.h */,
+				8722870E1DF7D36E0018F251 /* InfoTableViewCell.m */,
 				6003F59C195388D20070C39A /* MMADPayAppDelegate.h */,
 				6003F59D195388D20070C39A /* MMADPayAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				872287121DF7F0F90018F251 /* LaunchScreen.storyboard */,
 				6003F5A5195388D20070C39A /* MMADPayViewController.h */,
 				6003F5A6195388D20070C39A /* MMADPayViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -276,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				872287131DF7F0F90018F251 /* LaunchScreen.storyboard in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -391,6 +400,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* MMADPayAppDelegate.m in Sources */,
+				8722870F1DF7D36E0018F251 /* InfoTableViewCell.m in Sources */,
 				6003F5A7195388D20070C39A /* MMADPayViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -516,9 +526,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MMADPay/MMADPay-Prefix.pch";
 				INFOPLIST_FILE = "MMADPay/MMADPay-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -532,9 +544,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MMADPay/MMADPay-Prefix.pch";
 				INFOPLIST_FILE = "MMADPay/MMADPay-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -1,0 +1,16 @@
+PODS:
+  - MMADPay (0.1.0)
+
+DEPENDENCIES:
+  - MMADPay (from `../`)
+
+EXTERNAL SOURCES:
+  MMADPay:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MMADPay: 526e71d80d5fadcc485d9cfd550ec2bad17765b1
+
+PODFILE CHECKSUM: 5a5cc29d593f4e7942bbd524f5c61391a0bd21db
+
+COCOAPODS: 1.1.1

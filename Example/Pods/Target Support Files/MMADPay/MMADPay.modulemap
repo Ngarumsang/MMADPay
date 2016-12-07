@@ -1,0 +1,6 @@
+framework module MMADPay {
+  umbrella header "MMADPay-umbrella.h"
+
+  export *
+  module * { export * }
+}
