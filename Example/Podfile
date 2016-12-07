@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MMADPay_Example' do
+  pod 'MMADPay', :path => '../'
+
+  target 'MMADPay_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
