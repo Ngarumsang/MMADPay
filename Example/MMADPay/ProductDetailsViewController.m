@@ -8,7 +8,7 @@
 
 #import "ProductDetailsViewController.h"
 #import "MMADPayHeader.h"
-
+#import "SuccessViewController.h"
 
 static NSString *salt = @"c789b33898c94702";
 static NSString *payId = @"1611241639211002";
@@ -17,6 +17,8 @@ static NSString *merchantName = @"Mobile Integration";
 @interface ProductDetailsViewController ()
 {
     NSDictionary *productInfo;
+    UIView *viewBackground;
+    SuccessViewController *successViewController;
 }
 
 @end
@@ -115,21 +117,88 @@ static NSString *merchantName = @"Mobile Integration";
 
 - (void)paymentResponse: (NSNotification*)notification {
     NSLog(@"Response Received: %@",notification.userInfo);
-    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Received response" message:[NSString stringWithFormat:@"%@",notification.userInfo] preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDestructive handler:nil];
-    [alertController addAction:okAction];
-    [self presentViewController:alertController animated:YES completion:nil]; 
+    
+    NSDictionary *response = notification.userInfo;
+    if ([response objectForKey:@"AMOUNT"]) {
+        [self showSucessMessage:response];
+    } else {
+        UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Transaction failed" message:[NSString stringWithFormat:@"%@",[notification.userInfo objectForKey:@"failureDescription"]] preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDestructive handler:nil];
+        [alertController addAction:okAction];
+        [self presentViewController:alertController animated:YES completion:nil];
+    }
+    
+    
 }
 
+- (void)showSucessMessage: (NSDictionary *)responseObject {
+    
+    viewBackground = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height+64)];
+    viewBackground.backgroundColor = [UIColor blackColor];
+    viewBackground.alpha = 0.5;
+    [self.navigationController.view addSubview:viewBackground];
+    
+    successViewController = [[SuccessViewController alloc]initWithNibName:@"SuccessView" bundle:nil];
+    successViewController.view.backgroundColor =[UIColor clearColor];
+    [self displayContentController: successViewController];
+    
+    [successViewController.btnOk addTarget:self action:@selector(dismissSuccessMessage) forControlEvents:UIControlEventTouchUpInside];
+    successViewController.btnOk.layer.cornerRadius = 3.0;
+    successViewController.lblTransactionId.text = [responseObject objectForKey:@"TXN_ID"];
+    
+    NSInteger amount = [[responseObject objectForKey:@"AMOUNT"] integerValue];
+    amount = amount/100;
+    successViewController.lblPrice.text = [NSString stringWithFormat:@"Rs %ld",amount];
+    successViewController.lblStatus.text = [responseObject objectForKey:@"STATUS"];
+    successViewController.lblMessage.text = [responseObject objectForKey:@"PG_TXN_MESSAGE"];
+    successViewController.lblTime.text = [responseObject objectForKey:@"RESPONSE_DATE_TIME"];
+    successViewController.view.transform = CGAffineTransformMakeScale(0.1, 0.1);
+    successViewController.viewContainer.layer.cornerRadius = 3.0;
+    [UIView animateWithDuration:0.3 animations:^{
+        successViewController.view.transform = CGAffineTransformMakeScale(1.0, 1.0);
+        successViewController.view.center = self.view.center;
+        
+    } completion:^(BOOL finished) {
+        
+    }];
+    
+    
+    
+    
+}
+- (void)dismissSuccessMessage {
+    
+    [UIView animateWithDuration:0.3 animations:^{
+        successViewController.view.transform = CGAffineTransformMakeScale(0.1, 0.1);
+        successViewController.view.center = self.view.center;
+        
+        
+    } completion:^(BOOL finished) {
+        [successViewController willMoveToParentViewController:nil];
+        [successViewController.view removeFromSuperview];
+        [successViewController removeFromParentViewController];
+        [viewBackground removeFromSuperview];
+        viewBackground = nil;
+        successViewController = nil;
+    }];
+    
+}
+- (void) displayContentController: (UIViewController*) content;
+{
+    [self.navigationController addChildViewController:content];
+    content.view.frame = self.view.frame;
+    [self.navigationController.view addSubview:content.view];
+    [content didMoveToParentViewController:self];
+}
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end

@@ -19,7 +19,7 @@
 #define YES_ACTION @"YES"
 #define NO_ACTION @"NO"
 #define BACK_ICONNAME @"left-arrow.png"
-#define PROCESSING_TITLE @"Processing Payment..."
+#define PROCESSING_TITLE @"Processing payment..."
 
 extern NSString * const kMMADPayEnablePaymentNotification;
 @interface MMADPayConstants : NSObject

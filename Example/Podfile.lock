@@ -1,9 +1,7 @@
 PODS:
-  - IQKeyboardManager (4.0.7)
   - MMADPay (0.1.0)
 
 DEPENDENCIES:
-  - IQKeyboardManager
   - MMADPay (from `../`)
 
 EXTERNAL SOURCES:
@@ -11,9 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  IQKeyboardManager: 69002bb4fea60596b710e57d426abc00e5063630
   MMADPay: 58d34c03ff0910269d46b5b9bde0425a2e35e2a0
 
-PODFILE CHECKSUM: 351b1b25d25cd086efcdcbc9906e5630108ff45f
+PODFILE CHECKSUM: 01dcc6db802efd5aa9ce772a6e8cc93eca2ea870
 
 COCOAPODS: 1.1.1

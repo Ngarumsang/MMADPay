@@ -103,9 +103,20 @@
 {
     // getText() javascript code will be executed
     NSString *returnvalue =  [webView stringByEvaluatingJavaScriptFromString:@"getResponse()"];
-    NSLog(@"Response %@", [NSString stringWithFormat:@"from browser : %@", returnvalue ]);
-    [[NSNotificationCenter defaultCenter]postNotificationName:kMMADPayEnablePaymentNotification object:self userInfo:(NSDictionary*)returnvalue];
+    NSData *data = [returnvalue dataUsingEncoding:NSUTF8StringEncoding];
+    id json = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+    
+    [CATransaction begin];
+    [CATransaction setCompletionBlock:^{
+        // handle completion here
+            [[NSNotificationCenter defaultCenter]postNotificationName:kMMADPayEnablePaymentNotification object:self userInfo:json];
+    }];
+    
     [self.navigationController popViewControllerAnimated:YES];
+
+    [CATransaction commit];
+    
+
     // I can handle any error or success response here
     
     
