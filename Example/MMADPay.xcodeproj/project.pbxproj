@@ -15,15 +15,21 @@
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* MMADPayAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* MMADPayAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* MMADPayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* MMADPayViewController.m */; };
-		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		8722870F1DF7D36E0018F251 /* InfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8722870E1DF7D36E0018F251 /* InfoTableViewCell.m */; };
-		872287131DF7F0F90018F251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 872287121DF7F0F90018F251 /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8769B5561DFFD1C60083245A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		8769B5581DFFD70C0083245A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8769B5571DFFD70C0083245A /* LaunchScreen.storyboard */; };
+		8769B55E1DFFD9CF0083245A /* timex-watch.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8769B55A1DFFD9CF0083245A /* timex-watch.jpeg */; };
+		8769B55F1DFFD9CF0083245A /* apple-wearable.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8769B55B1DFFD9CF0083245A /* apple-wearable.jpeg */; };
+		8769B5601DFFD9CF0083245A /* apple-ipod.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8769B55C1DFFD9CF0083245A /* apple-ipod.jpeg */; };
+		8769B5611DFFD9CF0083245A /* sennheiser-earpiece.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8769B55D1DFFD9CF0083245A /* sennheiser-earpiece.jpeg */; };
+		8769B5631DFFD9DF0083245A /* iphone-7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8769B5621DFFD9DF0083245A /* iphone-7.jpeg */; };
+		8769B5661DFFDC560083245A /* MMADPayDemoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8769B5651DFFDC560083245A /* MMADPayDemoCollectionViewCell.m */; };
+		8769B5691DFFE3D60083245A /* ProductDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8769B5681DFFE3D60083245A /* ProductDetailsViewController.m */; };
 		CCF14A586A637E3AF8240E45 /* Pods_MMADPay_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF66B44ABEE655C96D1EB04A /* Pods_MMADPay_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,10 +65,17 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		8722870D1DF7D36E0018F251 /* InfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoTableViewCell.h; sourceTree = "<group>"; };
-		8722870E1DF7D36E0018F251 /* InfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoTableViewCell.m; sourceTree = "<group>"; };
-		872287121DF7F0F90018F251 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8769B5571DFFD70C0083245A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8769B55A1DFFD9CF0083245A /* timex-watch.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timex-watch.jpeg"; sourceTree = "<group>"; };
+		8769B55B1DFFD9CF0083245A /* apple-wearable.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple-wearable.jpeg"; sourceTree = "<group>"; };
+		8769B55C1DFFD9CF0083245A /* apple-ipod.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apple-ipod.jpeg"; sourceTree = "<group>"; };
+		8769B55D1DFFD9CF0083245A /* sennheiser-earpiece.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sennheiser-earpiece.jpeg"; sourceTree = "<group>"; };
+		8769B5621DFFD9DF0083245A /* iphone-7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "iphone-7.jpeg"; sourceTree = "<group>"; };
+		8769B5641DFFDC560083245A /* MMADPayDemoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMADPayDemoCollectionViewCell.h; sourceTree = "<group>"; };
+		8769B5651DFFDC560083245A /* MMADPayDemoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMADPayDemoCollectionViewCell.m; sourceTree = "<group>"; };
+		8769B5671DFFE3D60083245A /* ProductDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailsViewController.h; sourceTree = "<group>"; };
+		8769B5681DFFE3D60083245A /* ProductDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailsViewController.m; sourceTree = "<group>"; };
 		9D0FC50C1E291766055F20FB /* Pods-MMADPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMADPay_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMADPay_Example/Pods-MMADPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A3665F7DBFDCBBFE20AEC962 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AE0C4E29ACA8B30E5F23E800 /* Pods-MMADPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMADPay_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMADPay_Tests/Pods-MMADPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -135,16 +148,18 @@
 		6003F593195388D20070C39A /* Example for MMADPay */ = {
 			isa = PBXGroup;
 			children = (
-				8722870D1DF7D36E0018F251 /* InfoTableViewCell.h */,
-				8722870E1DF7D36E0018F251 /* InfoTableViewCell.m */,
 				6003F59C195388D20070C39A /* MMADPayAppDelegate.h */,
 				6003F59D195388D20070C39A /* MMADPayAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				872287121DF7F0F90018F251 /* LaunchScreen.storyboard */,
 				6003F5A5195388D20070C39A /* MMADPayViewController.h */,
 				6003F5A6195388D20070C39A /* MMADPayViewController.m */,
+				8769B5641DFFDC560083245A /* MMADPayDemoCollectionViewCell.h */,
+				8769B5651DFFDC560083245A /* MMADPayDemoCollectionViewCell.m */,
+				8769B5671DFFE3D60083245A /* ProductDetailsViewController.h */,
+				8769B5681DFFE3D60083245A /* ProductDetailsViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				8769B5571DFFD70C0083245A /* LaunchScreen.storyboard */,
 			);
 			name = "Example for MMADPay";
 			path = MMADPay;
@@ -153,6 +168,7 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8769B5591DFFD9C50083245A /* Images */,
 				6003F595195388D20070C39A /* MMADPay-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
@@ -188,6 +204,18 @@
 				A3665F7DBFDCBBFE20AEC962 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		8769B5591DFFD9C50083245A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8769B5621DFFD9DF0083245A /* iphone-7.jpeg */,
+				8769B55A1DFFD9CF0083245A /* timex-watch.jpeg */,
+				8769B55B1DFFD9CF0083245A /* apple-wearable.jpeg */,
+				8769B55C1DFFD9CF0083245A /* apple-ipod.jpeg */,
+				8769B55D1DFFD9CF0083245A /* sennheiser-earpiece.jpeg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		963A2E7D35642A813326A2B7 /* Pods */ = {
@@ -255,6 +283,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Ngarumsang;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 6S55736M3G;
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -284,10 +316,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				872287131DF7F0F90018F251 /* LaunchScreen.storyboard in Resources */,
+				8769B5601DFFD9CF0083245A /* apple-ipod.jpeg in Resources */,
+				8769B5561DFFD1C60083245A /* Images.xcassets in Resources */,
+				8769B55F1DFFD9CF0083245A /* apple-wearable.jpeg in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				8769B55E1DFFD9CF0083245A /* timex-watch.jpeg in Resources */,
+				8769B5581DFFD70C0083245A /* LaunchScreen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				8769B5611DFFD9CF0083245A /* sennheiser-earpiece.jpeg in Resources */,
+				8769B5631DFFD9DF0083245A /* iphone-7.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,9 +437,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* MMADPayAppDelegate.m in Sources */,
-				8722870F1DF7D36E0018F251 /* InfoTableViewCell.m in Sources */,
 				6003F5A7195388D20070C39A /* MMADPayViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				8769B5661DFFDC560083245A /* MMADPayDemoCollectionViewCell.m in Sources */,
+				8769B5691DFFE3D60083245A /* ProductDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,14 +560,17 @@
 			baseConfigurationReference = 9D0FC50C1E291766055F20FB /* Pods-MMADPay_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Amit Jain (KYP9354895)";
+				DEVELOPMENT_TEAM = 6S55736M3G;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MMADPay/MMADPay-Prefix.pch";
 				INFOPLIST_FILE = "MMADPay/MMADPay-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmadapps.MMADPayDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8a6d4b5c-ec6a-4531-a222-ccb3add557fd";
+				PROVISIONING_PROFILE_SPECIFIER = MMADPayDemo_Provisional;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -540,14 +581,17 @@
 			baseConfigurationReference = 4DF8504EBDADBE1EC3BEC709 /* Pods-MMADPay_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Amit Jain (KYP9354895)";
+				DEVELOPMENT_TEAM = 6S55736M3G;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MMADPay/MMADPay-Prefix.pch";
 				INFOPLIST_FILE = "MMADPay/MMADPay-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmadapps.MMADPayDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8a6d4b5c-ec6a-4531-a222-ccb3add557fd";
+				PROVISIONING_PROFILE_SPECIFIER = MMADPayDemo_Provisional;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

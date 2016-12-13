@@ -10,13 +10,13 @@
 #import "MMADPayConstants.h"
 #import "MMADPayWebserviceHandler.h"
 #import "MMADPayCreatePostData.h"
-@import WebKit;
+#import "MMADPayUtils.h"
+
 
 @interface MMADPayPaymentViewController ()<UIWebViewDelegate, UIScrollViewDelegate>
 {
-    WKWebView *webView;
-    NSMutableData *resultData;
-    UIActivityIndicatorView *activity;
+    UIWebView *webView;
+    NSURLRequest *request;
 }
 @property NSData *httpFormRequestData;
 @end
@@ -25,64 +25,69 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = PROCESSING_TITLE;
     self.view.backgroundColor = [UIColor whiteColor];
     self.automaticallyAdjustsScrollViewInsets = NO;
-
+    UIBarButtonItem *backAction = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:BACK_ICONNAME] style:UIBarButtonItemStylePlain target:self action:@selector(backAction)];
+    backAction.tintColor = [UIColor whiteColor];
+    self.navigationItem.leftBarButtonItem = backAction;
     [self initializePaymentProcess];
-      [self subscribeToNotifications];
 }
--(void)dealloc{
-    [self unsubscribeFromNotifications];
+
+- (void)backAction {
+    
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:WARNING message:CANCEL_TRANSACTION preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *yesAction = [UIAlertAction actionWithTitle:YES_ACTION style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
+          [self.navigationController popViewControllerAnimated:YES];
+    }];
+    [alertController addAction:yesAction];
+    UIAlertAction *noAction = [UIAlertAction actionWithTitle:NO_ACTION style:UIAlertActionStyleCancel handler:nil];
+    [alertController addAction:noAction];
+    [self presentViewController:alertController animated:YES completion:nil];
+
+    
+    
+  
 }
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-- (void)subscribeToNotifications {
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(paymentResponse:) name:kMMADPayEnablePaymentNotification object:nil];
-}
-
-- (void)unsubscribeFromNotifications {
-    [[NSNotificationCenter defaultCenter] removeObserver:self];
-}
 
 - (void)initializePaymentProcess {
     MMADPayCreatePostData *createData = [MMADPayCreatePostData new];
     _httpFormRequestData = [createData createPostDataFromPaymentModel:_paramModel];
     MMADPayWebserviceHandler *serviceHandler = [MMADPayWebserviceHandler sharedInstance];
-    activity = [[UIActivityIndicatorView alloc]initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
-    activity.hidesWhenStopped = YES;
-    [self.view addSubview:activity];
-    activity.center = self.view.center;
-    [activity startAnimating];
     
     [serviceHandler callWebService:MMADPAY_PAYMENT_URL paramaters:_httpFormRequestData completionHandler:^(id responseObject) {
-        resultData = [NSMutableData new];
-        resultData = responseObject;
+        request = responseObject;
         [self createWebView];
-    } andErrorcompletionHandler:^(NSError *error) {
-         [activity stopAnimating];
-        [self.navigationController popViewControllerAnimated:YES];
     }];
- 
+   
+    
 }
 
 - (void)createWebView {
     
-    webView = [[WKWebView alloc]initWithFrame:CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 64)];
+    webView = [[UIWebView alloc]initWithFrame:CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 64)];
     [webView sizeToFit];
-    webView.navigationDelegate = self;
-    [self.view addSubview:webView];
+    webView.delegate = self;
     [webView setMultipleTouchEnabled:YES];
-     [webView loadData:resultData MIMEType:MMADPAY_MIMETYPE characterEncodingName:MMADPAY_CHARACTERENCODING baseURL:[NSURL URLWithString:MMADPAY_PAYMENT_URL]];
+    [self.view addSubview:webView];
+    [webView loadRequest:request];
+    [[MMADPayUtils sharedInstance]showActivity:self];
+    
+    
 }
 
 
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
 {
     if ([[[request URL] absoluteString] hasPrefix:@"ios:"]) {
-        
+       
         // Call the given selector
         [self performSelector:@selector(webToNativeCall)];
         // Cancel the location change
@@ -91,44 +96,39 @@
     return YES;
 }
 
+// Call back method
+// Callback handler Method
+// On click of done button below method will be invoked
 - (void)webToNativeCall
 {
-   [webView evaluateJavaScript:@"getResponse()" completionHandler:^(id _Nullable response, NSError * _Nullable error) {
-       NSData *data = [[NSString stringWithFormat:@"%@",response ] dataUsingEncoding:NSUTF8StringEncoding];
-       NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
-       
-       NSLog(@"Json: %@", json);
-    }];
+    // getText() javascript code will be executed
+    NSString *returnvalue =  [webView stringByEvaluatingJavaScriptFromString:@"getResponse()"];
+    NSLog(@"Response %@", [NSString stringWithFormat:@"from browser : %@", returnvalue ]);
+    [[NSNotificationCenter defaultCenter]postNotificationName:kMMADPayEnablePaymentNotification object:self userInfo:(NSDictionary*)returnvalue];
+    [self.navigationController popViewControllerAnimated:YES];
+    // I can handle any error or success response here
+    
     
 }
 
 - (void)webViewDidStartLoad:(UIWebView *)webView {
     NSLog(@"webViewDidStartLoad");
+     NSLog(@"Request Url:%d",request.URL.absoluteURL);
+    
+
 }
+
+
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
-    NSLog(@"webViewDidFinishLoad");
-    //-- get version and schema from plist
-    NSDictionary* infoDict = [[NSBundle mainBundle] infoDictionary];
-    NSDictionary *urlScheme=[[infoDict valueForKey:@"CFBundleURLTypes"] objectAtIndex:0];
-    NSDictionary *vcScheme=[[infoDict valueForKey:@"LSApplicationQueriesSchemes"] objectAtIndex:1];
-    
-    //--Initialise App
-    NSMutableDictionary *initialiseApp = [[NSMutableDictionary alloc]init];
-    [initialiseApp setValue:[infoDict objectForKey:@"CFBundleShortVersionString"] forKey:@"version"];
-    [initialiseApp setValue:[[urlScheme valueForKey:@"CFBundleURLSchemes" ] objectAtIndex:0] forKey:@"schema"];
-    [initialiseApp setValue:vcScheme forKey:@"vcSchema"];
-    //initialiseApp[@"statusBarSize"] = @(statusBarSize);
-    //--
-    
-    [activity stopAnimating];
-    [[NSNotificationCenter defaultCenter]postNotificationName:@"initialiseApp" object:nil userInfo:initialiseApp];
+     [[MMADPayUtils sharedInstance]dismissActivity];
 }
 
-
-- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error{
-    NSLog(@"Error : %@",error);
-    NSLog(@"Error : %@",error.localizedDescription) ;
+- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {
+    [[MMADPayUtils sharedInstance]dismissActivity];
+    [[NSNotificationCenter defaultCenter]postNotificationName:kMMADPayEnablePaymentNotification object:self userInfo:@{@"failureDescription":error.localizedDescription}];
+    [self.navigationController popViewControllerAnimated:YES];
+    
 }
 
 

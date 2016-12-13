@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface MMADPayHashes : NSObject
-
+- (NSString*)getPayHashProductInfo: (NSDictionary *)productInfo withSalt: (NSString *)saltKey;
 @end

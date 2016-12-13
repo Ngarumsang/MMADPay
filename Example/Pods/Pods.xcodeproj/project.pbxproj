@@ -7,101 +7,204 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07D9C4B5E55AEC3CC2730238D51A0B17 /* Pods-MMADPay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E98CB89F603CAD3751CD733F56CC4A65 /* Pods-MMADPay_Example-dummy.m */; };
-		0C6F9059CE3FA321DCA6AAF8B765EC79 /* MMADPayUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DF86CB86670204B32602EE8241A2F57 /* MMADPayUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F1AA6AAC944909AF630311B43DA48A4 /* MMADPayPaymentModelParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF513B7B75CD0B0434155632B9C600F /* MMADPayPaymentModelParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15FDED33D5C55A487DF1C11220360436 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		19DA44976194610798E6CAE9E96A2DD4 /* MMADPayPaymentModelParams.m in Sources */ = {isa = PBXBuildFile; fileRef = EDBEA652D4AEDDE4367DD2022C4D75CF /* MMADPayPaymentModelParams.m */; };
-		1FB1AD827D4915B6B38D8AB27E95F29B /* MMADPayCreatePostData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5368686FC85385BDDA5A7FF3F9AC65BC /* MMADPayCreatePostData.m */; };
-		266E36EA235ED7DC8070317BAF244DAB /* MMADPayWebserviceHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B28685E8737369E4FFFC905771047AC /* MMADPayWebserviceHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00311CA07AA560C1D4A6A656C492436F /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 879CB55F3E503D673F59EC0B73CBE07C /* IQUIView+Hierarchy.m */; };
+		014BB832E93832634E095EED7A914D02 /* IQKeyboardManagerConstantsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = FC74225F07D4EB3F2ACC367CBC04DDF0 /* IQKeyboardManagerConstantsInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02742ED90591BC1183A1DE46CB6DFD40 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = A85D95AE8C82DE39E95B91E1DC71CC51 /* IQUITextFieldView+Additions.m */; };
+		0787B919149D52BD45F6D038924DDDEE /* MMADPayHashes.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F699150221635F94E053105B8EF8DD /* MMADPayHashes.m */; };
+		0E434D8AC2D4367AA481F8082FE45D65 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 033D8AA8997113635F9535EC2D061040 /* IQTitleBarButtonItem.m */; };
+		14BDDC6AEE2CBB29332143C82FD98047 /* MMADPayPaymentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 03D2C264E99A28CD606E66863E53F839 /* MMADPayPaymentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		152389779F3A613C0EAE6DC07E8DD029 /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 326B06E697170E48D291CCAB5B194756 /* IQTitleBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1748943A9E8A6CD3FF42FF12ED330B65 /* IQUIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBDDBB93124188EDACB9CE56DF0AD77 /* IQUIView+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E5A9332C5DD2E2CB1A8E9A650074D6C /* MMADPayValidations.m in Sources */ = {isa = PBXBuildFile; fileRef = C576CDD7ABCDBB4A4207F87E17988CBC /* MMADPayValidations.m */; };
+		1EB9A3C9B8BBE8633574895B21E6669B /* IQTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38B5A8B8566C861513B180E6D05A4F52 /* IQTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24E1F5D4F5C07EE1C1415FBF13C174D2 /* IQUIWindow+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C291F74107C277BE63BF3A86CBE2B18 /* IQUIWindow+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31BD4FB207BDE4F83CFF4E844E8DFBEE /* Pods-MMADPay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3A5E9764FFCFA9094CA2D89BCF36F5 /* Pods-MMADPay_Tests-dummy.m */; };
-		45A7D8780264FAFCEC96259F97BD8DD9 /* MMADPayCreatePostData.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCCBD1E312450831358254220F6FBB1 /* MMADPayCreatePostData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33AE9F72E40A4EBA41AD1A47211E2B2A /* IQUITextFieldView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E54F97511FA7FAA91CBC163BEEBE45C /* IQUITextFieldView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		351BC9417E7612D546508B99F1897331 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		37B72C11A06A830E00EA6C490CDAF28F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		3D445E46E9A0DBC7EE04A0D6633564D3 /* IQNSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = 189C90B4304A11836FB4A40C795B1E30 /* IQNSArray+Sort.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		416FA8B963C82F9BD251B04EA528B6FD /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2472ECC83BF104AE7026F0B7E816F2C0 /* IQTextView.m */; };
+		4227747C8D10BEFDEAEC1648E0388FAF /* MMADPayValidations.h in Headers */ = {isa = PBXBuildFile; fileRef = ECCAE0099D3BA7391E5665B2EBEAE60A /* MMADPayValidations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		456CBBFAC1A9E179F432F32325BBE0DE /* MMADPayPaymentModelParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 195FD8CDF87456332D8D9B5BAE15EC29 /* MMADPayPaymentModelParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AF222720B8058BA61A1724E8AB60EE7 /* MMADPayPaymentModelParams.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D45B315C8863A7FF69E5BBF9D1FB2B /* MMADPayPaymentModelParams.m */; };
+		532F0A73022F47783FCF897CFB0686EC /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 622C39A05CD79DAC62C139C54A2CA22B /* IQUIWindow+Hierarchy.m */; };
+		57602CD59C85D4D6A781F7267AE2EE8B /* IQKeyboardManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FE7955CE84A25E8A3638329D1B79CDC /* IQKeyboardManagerConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57F39E6FA17DA6EE64DD7FEEE9B50B06 /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 96C1904322078CB7B8F1CDC8ABA697CB /* IQKeyboardReturnKeyHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CA2E7FDE6656286744B97C947109F93 /* Pods-MMADPay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8EE652B34C951B0C51855AF989391B /* Pods-MMADPay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		618649F0B4EC3CB57494C98723097958 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		734AB5C5421D2766001FEA3266C919FA /* MMADPayConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F27F64193193C9C2C2BE6167AF2CC83 /* MMADPayConstants.m */; };
-		77226C1D9CFF47F65A9403EF1ABF5CC1 /* MMADPayHashes.h in Headers */ = {isa = PBXBuildFile; fileRef = E89021F273CAAB48FF42B1DCE39DFE70 /* MMADPayHashes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		872287111DF7EACF0018F251 /* MMADPayMainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27BE9C44228841397FDD4535F54FB77 /* MMADPayMainStoryboard.storyboard */; };
-		8B75524B04D7042F9BFBDEA4B76C6DD8 /* MMADPayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 123F8DD0ED9AE4A1A83B87B32E7AEC51 /* MMADPayUtils.m */; };
-		9ED558244AC3F1C688680A132D0C8B78 /* MMADPayValidations.h in Headers */ = {isa = PBXBuildFile; fileRef = DFC1A46B895DF7A2EBDADCEAB849EE8D /* MMADPayValidations.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF42723EE727975F8ECE5BF95A5BBC8D /* MMADPayHashes.m in Sources */ = {isa = PBXBuildFile; fileRef = E85371C177D5BF966BB9ACAE9FD3D5C0 /* MMADPayHashes.m */; };
-		BECA187277702AAC31A73551549C6435 /* MMADPayPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 855E7D707D1219898A268E3C5046775F /* MMADPayPaymentViewController.m */; };
-		C5F188CBEDE946A2E78910356AA92A52 /* Pods-MMADPay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5666D25E5BBA5BD94A90ABB24DD4FDF /* Pods-MMADPay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D1F7B968B7B5F768D4A4CC44ABD13437 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		D315AE7578C33286E707AFB54FA025C5 /* MMADPayWebserviceHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B8E7E4FADE398435A56C075ABAF09E /* MMADPayWebserviceHandler.m */; };
-		DA0EDABA32D61959E710901884A9B422 /* MMADPayValidations.m in Sources */ = {isa = PBXBuildFile; fileRef = FD493A84405F6EFB9703B6076425A44E /* MMADPayValidations.m */; };
-		E258B3DD4E4553556970B044E785A9FB /* MMADPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D42989D9380D55282A49C08769B6A6E /* MMADPay-dummy.m */; };
-		E41A79173AE129269F59472D655DFB32 /* MMADPay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88FFD27EAE60FBD94A921EEA5405B396 /* MMADPay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F00A43D800860BC1C1E93EC3A31820FA /* MMADPayPaymentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF405563CCD024B0EB1425470BA3B5D /* MMADPayPaymentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6C7BA05BA3014AE2A6BC1F92BDDFE9E /* MMADPayConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 0960EA31BDA54EBC6653E99BFDF07770 /* MMADPayConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CDF0C05D13E7DA75A626D2A56D3804F /* IQKeyboardManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B24A2D46C7D240422DAACF5B537FD77B /* IQKeyboardManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60D8DBAEF5140AB6D447788D20117595 /* IQUIScrollView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 864ACB08131AD9FF9D51FA43BC853655 /* IQUIScrollView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63521E633F5EA450D3E79EAA40B8D458 /* IQKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 49EA6001D58E9B4AB8487F6906159B6C /* IQKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69BC64FA6EF6E7D967A051E53B7E50A1 /* IQKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9410884F534E4741954C235EE794EDF /* IQKeyboardManager-dummy.m */; };
+		7C90C307DE950C9153E10F3FEBAAD092 /* Pods-MMADPay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E98CB89F603CAD3751CD733F56CC4A65 /* Pods-MMADPay_Example-dummy.m */; };
+		7E1F8937C1E23E1C317871DB7A9C8CD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */; };
+		7E7A17C6F856A3EC94F4CFB077F7EB00 /* MMADPayWebserviceHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 991242C1B0BF778D47EBBFBA0F6E7573 /* MMADPayWebserviceHandler.m */; };
+		820866489A7A302208B961A40ACD1C17 /* MMADPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D42989D9380D55282A49C08769B6A6E /* MMADPay-dummy.m */; };
+		83600557B65E2614D7F683A0D3F74D90 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A746B4F4DD70EE9FEAC125F52AD9AD1 /* IQUIScrollView+Additions.m */; };
+		85201A1EAFF1F953ED5684DEC338F5DF /* MMADPayCreatePostData.h in Headers */ = {isa = PBXBuildFile; fileRef = 7343804F177CFB6541922AA0593622EA /* MMADPayCreatePostData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85CCC724DF5432D149EE53936C20C61C /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BC46B73405F15E30F258E0E242BD3195 /* IQBarButtonItem.m */; };
+		897916A29FF8C3B3FDD057E153855D43 /* Pods-MMADPay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5666D25E5BBA5BD94A90ABB24DD4FDF /* Pods-MMADPay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EBEDFA28A0D554B65B74FDCB662D66F /* MMADPayUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 51D2D7DBFFFDED08BD9E68198E029411 /* MMADPayUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9006A4810153ADC1DAA7086DFD64DC1A /* MMADPayPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A273824F17132F6850D38280CEFB8B93 /* MMADPayPaymentViewController.m */; };
+		90D713186836AB404204648E82D2EF4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */; };
+		9C2B4ABD7ACF23AAEF514982A55D99EE /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCCAEC5B0E2F1338DE967D2121AD620 /* IQUIViewController+Additions.m */; };
+		9CDD05F3FF8498F2F0513A20B858B689 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECEDFD88A146224DD396D4BADA25B26 /* IQToolbar.m */; };
+		9E35E1E8FD093F9A93AE8FF797B51650 /* MMADPayHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = CF84BB1DC6F13BB1A4351B114E7EC17E /* MMADPayHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8B53F29975200B5D116BE9A36AC9625 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1BA44BEF27031AC61066FBB1313AC6E3 /* IQKeyboardManager.bundle */; };
+		A9E42CC45FD71B38F532643C3BD8934F /* IQBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B6C4F269F6E647223486ECA5E51A3C3 /* IQBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2EBFFB31617155A93856E042BE13CDD /* MMADPay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88FFD27EAE60FBD94A921EEA5405B396 /* MMADPay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9548D587DD2C24B5FEE71F136E44D6B /* IQToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = B2BE1C754736B510FEFE3C9FA64E05DB /* IQToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9C2D2D2787674E1ABF18675D5CB6C06 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = BC31958BDCEB68025875697D52D44FC1 /* IQKeyboardReturnKeyHandler.m */; };
+		BA5852F52807DD1BA2EFC80450FF5CDD /* MMADPayCreatePostData.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E8BFDA91C9678B00C555D57B4DF04D /* MMADPayCreatePostData.m */; };
+		C1E4A971CF84B06064F82D87044449E8 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C15DC91CD486208825B85485B0B00F8 /* IQPreviousNextView.m */; };
+		C6FF8F0FED3ADDD3C629574093487897 /* IQUIView+IQKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C2F52C991E8610B08A1FA60292329C4 /* IQUIView+IQKeyboardToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8D6B2A085F287A0EABB51CCDF562DF1 /* MMADPayConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 3173FC7AD381A07F3B2E15801E48CAB7 /* MMADPayConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1F7B968B7B5F768D4A4CC44ABD13437 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		D8EC7C59672A6275D2ABFEE9556F5B4A /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F47F140C6533212E81C1308BC4283 /* IQUIView+IQKeyboardToolbar.m */; };
+		D9AD2EB3539128A89E0ABED7A64DB455 /* IQPreviousNextView.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAA27AE856995F1CDD714E88F8ECDCD /* IQPreviousNextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC4E07D953BA4695EA22D96060A1D536 /* MMADPayWebserviceHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = AF0F92F51F77B0A8C595EB94ECDFB0A3 /* MMADPayWebserviceHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCC12AFB2182D9C2BA907DD07A6EAEBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792165F2CA033667D6F57205316D40A1 /* Foundation.framework */; };
+		E62D23900BC87F851BC637427042B214 /* IQUIViewController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = A25EB4FF16E3F9D10971A51D4DEC0C0E /* IQUIViewController+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC5FC8AE495678E3CE31F52B77FD70C6 /* MMADPayConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4686E518EB6F3EE0F20CDEFEF95F268E /* MMADPayConstants.m */; };
+		EF59FAF202E5C9DBFAD2CFA028895214 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = CB01C1297440515DA88B6B4AE86D7A5F /* IQNSArray+Sort.m */; };
+		EFC74392DBF8FA4E7C08BC00A080CD23 /* MMADPayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2824DF3F4907C3CA82EAC640B06F1D43 /* MMADPayUtils.m */; };
+		F7B5D7110D70090F1B035A27699E15DC /* MMADPayHashes.h in Headers */ = {isa = PBXBuildFile; fileRef = B6FDD9D91D091B6BF9AF223739F383EA /* MMADPayHashes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE3F0DD9F7B386BA9F5D6EF561AD6B70 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5005437EADE20F723DB76D22D6576841 /* IQKeyboardManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E1494DBC9A6DE1012975B99957110ED0 /* PBXContainerItemProxy */ = {
+		76213FCD802D343FD8A3368296ABE677 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8B601FB088D04259D0B1172C4ADBAF21;
+			remoteGlobalIDString = 670C989254AFDBFBF1F4F4CEDA1D18E8;
 			remoteInfo = MMADPay;
+		};
+		790F3E3C102C9646E389CA3F40C82127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C36CB2CB977A4E7D954935096D00A1ED;
+			remoteInfo = IQKeyboardManager;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0960EA31BDA54EBC6653E99BFDF07770 /* MMADPayConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayConstants.h; sourceTree = "<group>"; };
-		0F27F64193193C9C2C2BE6167AF2CC83 /* MMADPayConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayConstants.m; sourceTree = "<group>"; };
-		123F8DD0ED9AE4A1A83B87B32E7AEC51 /* MMADPayUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayUtils.m; sourceTree = "<group>"; };
-		1CF405563CCD024B0EB1425470BA3B5D /* MMADPayPaymentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayPaymentViewController.h; sourceTree = "<group>"; };
+		027F47F140C6533212E81C1308BC4283 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		033D8AA8997113635F9535EC2D061040 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTitleBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		03D2C264E99A28CD606E66863E53F839 /* MMADPayPaymentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayPaymentViewController.h; sourceTree = "<group>"; };
+		0443FFC313E19C87C01D6AB4E5840D86 /* Pods_MMADPay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMADPay_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B6C4F269F6E647223486ECA5E51A3C3 /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.h; sourceTree = "<group>"; };
+		0C2F52C991E8610B08A1FA60292329C4 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		0CBDDBB93124188EDACB9CE56DF0AD77 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		189C90B4304A11836FB4A40C795B1E30 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNSArray+Sort.h"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		195FD8CDF87456332D8D9B5BAE15EC29 /* MMADPayPaymentModelParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayPaymentModelParams.h; sourceTree = "<group>"; };
+		1BA44BEF27031AC61066FBB1313AC6E3 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManager/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		1C291F74107C277BE63BF3A86CBE2B18 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIWindow+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		20AD90FF0EDC3092B70CB67F77E877F3 /* MMADPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMADPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2210C2924695E4C6E3B5661A967C2EEE /* Pods-MMADPay_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMADPay_Tests-resources.sh"; sourceTree = "<group>"; };
-		2D5B8162EEB130E23645E8DE917E53D9 /* Pods_MMADPay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMADPay_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2472ECC83BF104AE7026F0B7E816F2C0 /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = IQKeyboardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
+		2824DF3F4907C3CA82EAC640B06F1D43 /* MMADPayUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayUtils.m; sourceTree = "<group>"; };
+		290F7289CD50236188DE133452D03EAE /* IQKeyboardManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManager.xcconfig; sourceTree = "<group>"; };
 		30F3DF15B341282387CD364F94653DFC /* Pods-MMADPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMADPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3173FC7AD381A07F3B2E15801E48CAB7 /* MMADPayConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayConstants.h; sourceTree = "<group>"; };
+		326B06E697170E48D291CCAB5B194756 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTitleBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.h; sourceTree = "<group>"; };
 		35A8501A4CF391CD028F82FC4AA2D6A3 /* Pods-MMADPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMADPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		38B5A8B8566C861513B180E6D05A4F52 /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = IQKeyboardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
 		3AA6D0F43871EAA4C87A6F16491A1278 /* Pods-MMADPay_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMADPay_Example-resources.sh"; sourceTree = "<group>"; };
-		3CF513B7B75CD0B0434155632B9C600F /* MMADPayPaymentModelParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayPaymentModelParams.h; sourceTree = "<group>"; };
-		434A37B1CFE329A586731135927E5E96 /* Pods_MMADPay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMADPay_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4686E518EB6F3EE0F20CDEFEF95F268E /* MMADPayConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayConstants.m; sourceTree = "<group>"; };
 		495057261C2E70ED6431D2986CAF035C /* Pods-MMADPay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMADPay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		49EA6001D58E9B4AB8487F6906159B6C /* IQKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManager.h; path = IQKeyboardManager/IQKeyboardManager.h; sourceTree = "<group>"; };
+		4C15DC91CD486208825B85485B0B00F8 /* IQPreviousNextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQPreviousNextView.m; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.m; sourceTree = "<group>"; };
+		4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		5005437EADE20F723DB76D22D6576841 /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardManager.m; path = IQKeyboardManager/IQKeyboardManager.m; sourceTree = "<group>"; };
+		500D1C755EC302078D9E1B002BDC3029 /* IQKeyboardManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = IQKeyboardManager.modulemap; sourceTree = "<group>"; };
 		5082FB6DEF73383DCBB67C362EC55AEA /* MMADPay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMADPay.xcconfig; sourceTree = "<group>"; };
-		5368686FC85385BDDA5A7FF3F9AC65BC /* MMADPayCreatePostData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayCreatePostData.m; sourceTree = "<group>"; };
+		51D2D7DBFFFDED08BD9E68198E029411 /* MMADPayUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayUtils.h; sourceTree = "<group>"; };
 		5A82191F4028F66C85A7F3E98FDF877D /* MMADPay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MMADPay.modulemap; sourceTree = "<group>"; };
 		5D42989D9380D55282A49C08769B6A6E /* MMADPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMADPay-dummy.m"; sourceTree = "<group>"; };
 		5F508A047629F360F347AAF9A5C5BE98 /* Pods-MMADPay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMADPay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6B28685E8737369E4FFFC905771047AC /* MMADPayWebserviceHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayWebserviceHandler.h; sourceTree = "<group>"; };
+		622C39A05CD79DAC62C139C54A2CA22B /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIWindow+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		6D3A5E9764FFCFA9094CA2D89BCF36F5 /* Pods-MMADPay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMADPay_Tests-dummy.m"; sourceTree = "<group>"; };
+		6E54F97511FA7FAA91CBC163BEEBE45C /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUITextFieldView+Additions.h"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
 		72776533262E4C7E0AEB4934E5596861 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7343804F177CFB6541922AA0593622EA /* MMADPayCreatePostData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayCreatePostData.h; sourceTree = "<group>"; };
 		76AA8EF4F151B8685A54297FEC665444 /* Pods-MMADPay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMADPay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		855E7D707D1219898A268E3C5046775F /* MMADPayPaymentViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayPaymentViewController.m; sourceTree = "<group>"; };
+		792165F2CA033667D6F57205316D40A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7FE7955CE84A25E8A3638329D1B79CDC /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		864ACB08131AD9FF9D51FA43BC853655 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIScrollView+Additions.h"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		8769B56B1DFFFB170083245A /* mmadpay-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mmadpay-logo.png"; sourceTree = "<group>"; };
+		8769B56C1DFFFC7E0083245A /* left-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-arrow.png"; sourceTree = "<group>"; };
+		879CB55F3E503D673F59EC0B73CBE07C /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
 		883FAFC5C4853322F75A8DA6C0ECD3D2 /* Pods-MMADPay_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMADPay_Example-frameworks.sh"; sourceTree = "<group>"; };
 		88FFD27EAE60FBD94A921EEA5405B396 /* MMADPay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMADPay-umbrella.h"; sourceTree = "<group>"; };
+		8A746B4F4DD70EE9FEAC125F52AD9AD1 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIScrollView+Additions.m"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		8BCCAEC5B0E2F1338DE967D2121AD620 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIViewController+Additions.m"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96C1904322078CB7B8F1CDC8ABA697CB /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardReturnKeyHandler.h; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
 		977C628E1AF9C661F8EE317CC287044C /* MMADPay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMADPay-prefix.pch"; sourceTree = "<group>"; };
-		9DF86CB86670204B32602EE8241A2F57 /* MMADPayUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayUtils.h; sourceTree = "<group>"; };
+		991242C1B0BF778D47EBBFBA0F6E7573 /* MMADPayWebserviceHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayWebserviceHandler.m; sourceTree = "<group>"; };
+		9ECEDFD88A146224DD396D4BADA25B26 /* IQToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQToolbar.m; path = IQKeyboardManager/IQToolbar/IQToolbar.m; sourceTree = "<group>"; };
+		A22799CBCA11CDB64FE96C3719F8F749 /* IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
+		A25EB4FF16E3F9D10971A51D4DEC0C0E /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIViewController+Additions.h"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		A273824F17132F6850D38280CEFB8B93 /* MMADPayPaymentViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayPaymentViewController.m; sourceTree = "<group>"; };
+		A28F51DCE88059475A249295ACDD2A63 /* Pods_MMADPay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMADPay_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F5CC2353E40250CE1FDA0095DC71BD /* Pods-MMADPay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMADPay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A6D45B315C8863A7FF69E5BBF9D1FB2B /* MMADPayPaymentModelParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayPaymentModelParams.m; sourceTree = "<group>"; };
+		A85D95AE8C82DE39E95B91E1DC71CC51 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUITextFieldView+Additions.m"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
 		ADAD7FFAC68CE716D6EDED5098FCDCF3 /* Pods-MMADPay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MMADPay_Tests.modulemap"; sourceTree = "<group>"; };
 		AEA5AD73D901158D80E2E830A3D52132 /* Pods-MMADPay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMADPay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF0F92F51F77B0A8C595EB94ECDFB0A3 /* MMADPayWebserviceHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayWebserviceHandler.h; sourceTree = "<group>"; };
+		B24A2D46C7D240422DAACF5B537FD77B /* IQKeyboardManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-umbrella.h"; sourceTree = "<group>"; };
+		B2BE1C754736B510FEFE3C9FA64E05DB /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQToolbar.h; path = IQKeyboardManager/IQToolbar/IQToolbar.h; sourceTree = "<group>"; };
 		B45C4307C1A293EC8CF3AF51BB050C5E /* Pods-MMADPay_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMADPay_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		BBCCBD1E312450831358254220F6FBB1 /* MMADPayCreatePostData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayCreatePostData.h; sourceTree = "<group>"; };
+		B6FDD9D91D091B6BF9AF223739F383EA /* MMADPayHashes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayHashes.h; sourceTree = "<group>"; };
 		BC18807D2A8646EFD40D04FA0CEEE508 /* Pods-MMADPay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MMADPay_Example.modulemap"; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BC31958BDCEB68025875697D52D44FC1 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		BC46B73405F15E30F258E0E242BD3195 /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
+		C576CDD7ABCDBB4A4207F87E17988CBC /* MMADPayValidations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayValidations.m; sourceTree = "<group>"; };
+		CB01C1297440515DA88B6B4AE86D7A5F /* IQNSArray+Sort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQNSArray+Sort.m"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		CF84BB1DC6F13BB1A4351B114E7EC17E /* MMADPayHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayHeader.h; sourceTree = "<group>"; };
 		D0BF4E3DF5FA3A607837D6EB8D2E7BBD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D27BE9C44228841397FDD4535F54FB77 /* MMADPayMainStoryboard.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = MMADPayMainStoryboard.storyboard; sourceTree = "<group>"; };
+		D0F699150221635F94E053105B8EF8DD /* MMADPayHashes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayHashes.m; sourceTree = "<group>"; };
 		D2D12AFC6C8CF4474FEFE8A33CFD4CEA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DBFF4543D43B75BBC5C8FCD3FD6BA087 /* MMADPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMADPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E8BFDA91C9678B00C555D57B4DF04D /* MMADPayCreatePostData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayCreatePostData.m; sourceTree = "<group>"; };
+		D367709DF70ACE7A0F4CCBB3B43B3BEA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF8EE652B34C951B0C51855AF989391B /* Pods-MMADPay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMADPay_Tests-umbrella.h"; sourceTree = "<group>"; };
-		DFC1A46B895DF7A2EBDADCEAB849EE8D /* MMADPayValidations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayValidations.h; sourceTree = "<group>"; };
 		E10539513165C394908539CC4DED447C /* Pods-MMADPay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMADPay_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E28A6CFFC3FE5B4B169609BA661AF116 /* IQKeyboardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5666D25E5BBA5BD94A90ABB24DD4FDF /* Pods-MMADPay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMADPay_Example-umbrella.h"; sourceTree = "<group>"; };
-		E85371C177D5BF966BB9ACAE9FD3D5C0 /* MMADPayHashes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayHashes.m; sourceTree = "<group>"; };
-		E89021F273CAAB48FF42B1DCE39DFE70 /* MMADPayHashes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayHashes.h; sourceTree = "<group>"; };
 		E98CB89F603CAD3751CD733F56CC4A65 /* Pods-MMADPay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMADPay_Example-dummy.m"; sourceTree = "<group>"; };
-		EDBEA652D4AEDDE4367DD2022C4D75CF /* MMADPayPaymentModelParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayPaymentModelParams.m; sourceTree = "<group>"; };
-		F0B8E7E4FADE398435A56C075ABAF09E /* MMADPayWebserviceHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayWebserviceHandler.m; sourceTree = "<group>"; };
-		FD493A84405F6EFB9703B6076425A44E /* MMADPayValidations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayValidations.m; sourceTree = "<group>"; };
+		ECCAE0099D3BA7391E5665B2EBEAE60A /* MMADPayValidations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayValidations.h; sourceTree = "<group>"; };
+		F9410884F534E4741954C235EE794EDF /* IQKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManager-dummy.m"; sourceTree = "<group>"; };
+		FBAA27AE856995F1CDD714E88F8ECDCD /* IQPreviousNextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQPreviousNextView.h; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.h; sourceTree = "<group>"; };
+		FC74225F07D4EB3F2ACC367CBC04DDF0 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7905E16FFEEBDE071E6D41BA996F2955 /* Frameworks */ = {
+		5AE6C8F607EAA39C95F995E9EC7381D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				618649F0B4EC3CB57494C98723097958 /* Foundation.framework in Frameworks */,
+				351BC9417E7612D546508B99F1897331 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07DA15D44D134D363E9F922F448ED13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B72C11A06A830E00EA6C490CDAF28F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5220702F0A18A2B878F4C83551FF3A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1F8937C1E23E1C317871DB7A9C8CD9 /* CoreGraphics.framework in Frameworks */,
+				DCC12AFB2182D9C2BA907DD07A6EAEBB /* Foundation.framework in Frameworks */,
+				90D713186836AB404204648E82D2EF4D /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,47 +216,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECECAE8C7A0D07ED8A44878CF19C4CD1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				15FDED33D5C55A487DF1C11220360436 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03B4F29DEDC2EE211A0C2E737CE913CB /* Classes */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0960EA31BDA54EBC6653E99BFDF07770 /* MMADPayConstants.h */,
-				0F27F64193193C9C2C2BE6167AF2CC83 /* MMADPayConstants.m */,
-				BBCCBD1E312450831358254220F6FBB1 /* MMADPayCreatePostData.h */,
-				5368686FC85385BDDA5A7FF3F9AC65BC /* MMADPayCreatePostData.m */,
-				E89021F273CAAB48FF42B1DCE39DFE70 /* MMADPayHashes.h */,
-				E85371C177D5BF966BB9ACAE9FD3D5C0 /* MMADPayHashes.m */,
-				D27BE9C44228841397FDD4535F54FB77 /* MMADPayMainStoryboard.storyboard */,
-				3CF513B7B75CD0B0434155632B9C600F /* MMADPayPaymentModelParams.h */,
-				EDBEA652D4AEDDE4367DD2022C4D75CF /* MMADPayPaymentModelParams.m */,
-				1CF405563CCD024B0EB1425470BA3B5D /* MMADPayPaymentViewController.h */,
-				855E7D707D1219898A268E3C5046775F /* MMADPayPaymentViewController.m */,
-				9DF86CB86670204B32602EE8241A2F57 /* MMADPayUtils.h */,
-				123F8DD0ED9AE4A1A83B87B32E7AEC51 /* MMADPayUtils.m */,
-				DFC1A46B895DF7A2EBDADCEAB849EE8D /* MMADPayValidations.h */,
-				FD493A84405F6EFB9703B6076425A44E /* MMADPayValidations.m */,
-				6B28685E8737369E4FFFC905771047AC /* MMADPayWebserviceHandler.h */,
-				F0B8E7E4FADE398435A56C075ABAF09E /* MMADPayWebserviceHandler.m */,
+				2D185E38271E1279D6AC3E7A00CAF9BA /* iOS */,
 			);
-			path = Classes;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		16B8C8E40FE834E0A15BFDAAB9DDE8F4 /* MMADPay */ = {
 			isa = PBXGroup;
 			children = (
-				03B4F29DEDC2EE211A0C2E737CE913CB /* Classes */,
+				A99125A36F6B64145728BBD514E4A050 /* Classes */,
 			);
 			path = MMADPay;
+			sourceTree = "<group>";
+		};
+		1A6A308702EB928EE7BFCC75C70946CC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D367709DF70ACE7A0F4CCBB3B43B3BEA /* Info.plist */,
+				500D1C755EC302078D9E1B002BDC3029 /* IQKeyboardManager.modulemap */,
+				290F7289CD50236188DE133452D03EAE /* IQKeyboardManager.xcconfig */,
+				F9410884F534E4741954C235EE794EDF /* IQKeyboardManager-dummy.m */,
+				A22799CBCA11CDB64FE96C3719F8F749 /* IQKeyboardManager-prefix.pch */,
+				B24A2D46C7D240422DAACF5B537FD77B /* IQKeyboardManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManager";
+			sourceTree = "<group>";
+		};
+		2536FD84204B5FACE84A032600E4EF91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E28A6CFFC3FE5B4B169609BA661AF116 /* IQKeyboardManager.framework */,
+				20AD90FF0EDC3092B70CB67F77E877F3 /* MMADPay.framework */,
+				A28F51DCE88059475A249295ACDD2A63 /* Pods_MMADPay_Example.framework */,
+				0443FFC313E19C87C01D6AB4E5840D86 /* Pods_MMADPay_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D185E38271E1279D6AC3E7A00CAF9BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4D9AD02E9CEE9B012A246B3874CF4587 /* CoreGraphics.framework */,
+				792165F2CA033667D6F57205316D40A1 /* Foundation.framework */,
+				695DA86B20FEA7BF7EA40FA7DB65A479 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3CE9B26FBD74C7B8A142ED7EAAB40362 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1BA44BEF27031AC61066FBB1313AC6E3 /* IQKeyboardManager.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		403FB6EEB00A17702E78B42B00292D2F /* Pods-MMADPay_Tests */ = {
@@ -174,21 +296,14 @@
 			path = "Target Support Files/Pods-MMADPay_Tests";
 			sourceTree = "<group>";
 		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				9F65595EDA07231DE068FF6576FB3128 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				BE8239C427A154D1E6362DD47C46C5C7 /* Products */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				F5B7B38589327481A51D59AED1FBFCD1 /* Pods */,
+				2536FD84204B5FACE84A032600E4EF91 /* Products */,
 				F7B194E01EC87A5EBBB3CC9AFB221E5A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -196,6 +311,8 @@
 		839DBE4EC4F2803BAA1F0761E2B04711 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				8769B56C1DFFFC7E0083245A /* left-arrow.png */,
+				8769B56B1DFFFB170083245A /* mmadpay-logo.png */,
 				D2D12AFC6C8CF4474FEFE8A33CFD4CEA /* Info.plist */,
 				5A82191F4028F66C85A7F3E98FDF877D /* MMADPay.modulemap */,
 				5082FB6DEF73383DCBB67C362EC55AEA /* MMADPay.xcconfig */,
@@ -225,22 +342,28 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		A99125A36F6B64145728BBD514E4A050 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				3173FC7AD381A07F3B2E15801E48CAB7 /* MMADPayConstants.h */,
+				4686E518EB6F3EE0F20CDEFEF95F268E /* MMADPayConstants.m */,
+				7343804F177CFB6541922AA0593622EA /* MMADPayCreatePostData.h */,
+				D2E8BFDA91C9678B00C555D57B4DF04D /* MMADPayCreatePostData.m */,
+				B6FDD9D91D091B6BF9AF223739F383EA /* MMADPayHashes.h */,
+				D0F699150221635F94E053105B8EF8DD /* MMADPayHashes.m */,
+				CF84BB1DC6F13BB1A4351B114E7EC17E /* MMADPayHeader.h */,
+				195FD8CDF87456332D8D9B5BAE15EC29 /* MMADPayPaymentModelParams.h */,
+				A6D45B315C8863A7FF69E5BBF9D1FB2B /* MMADPayPaymentModelParams.m */,
+				03D2C264E99A28CD606E66863E53F839 /* MMADPayPaymentViewController.h */,
+				A273824F17132F6850D38280CEFB8B93 /* MMADPayPaymentViewController.m */,
+				51D2D7DBFFFDED08BD9E68198E029411 /* MMADPayUtils.h */,
+				2824DF3F4907C3CA82EAC640B06F1D43 /* MMADPayUtils.m */,
+				ECCAE0099D3BA7391E5665B2EBEAE60A /* MMADPayValidations.h */,
+				C576CDD7ABCDBB4A4207F87E17988CBC /* MMADPayValidations.m */,
+				AF0F92F51F77B0A8C595EB94ECDFB0A3 /* MMADPayWebserviceHandler.h */,
+				991242C1B0BF778D47EBBFBA0F6E7573 /* MMADPayWebserviceHandler.m */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BE8239C427A154D1E6362DD47C46C5C7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DBFF4543D43B75BBC5C8FCD3FD6BA087 /* MMADPay.framework */,
-				2D5B8162EEB130E23645E8DE917E53D9 /* Pods_MMADPay_Example.framework */,
-				434A37B1CFE329A586731135927E5E96 /* Pods_MMADPay_Tests.framework */,
-			);
-			name = Products;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		F0C6B1036A2B772D6937A6FC73C78508 /* Pods-MMADPay_Example */ = {
@@ -261,6 +384,14 @@
 			path = "Target Support Files/Pods-MMADPay_Example";
 			sourceTree = "<group>";
 		};
+		F5B7B38589327481A51D59AED1FBFCD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FED49EA3936FCBF2EFBCFCCD1C296EC1 /* IQKeyboardManager */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F7B194E01EC87A5EBBB3CC9AFB221E5A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,6 +399,45 @@
 				403FB6EEB00A17702E78B42B00292D2F /* Pods-MMADPay_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FED49EA3936FCBF2EFBCFCCD1C296EC1 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				0B6C4F269F6E647223486ECA5E51A3C3 /* IQBarButtonItem.h */,
+				BC46B73405F15E30F258E0E242BD3195 /* IQBarButtonItem.m */,
+				49EA6001D58E9B4AB8487F6906159B6C /* IQKeyboardManager.h */,
+				5005437EADE20F723DB76D22D6576841 /* IQKeyboardManager.m */,
+				7FE7955CE84A25E8A3638329D1B79CDC /* IQKeyboardManagerConstants.h */,
+				FC74225F07D4EB3F2ACC367CBC04DDF0 /* IQKeyboardManagerConstantsInternal.h */,
+				96C1904322078CB7B8F1CDC8ABA697CB /* IQKeyboardReturnKeyHandler.h */,
+				BC31958BDCEB68025875697D52D44FC1 /* IQKeyboardReturnKeyHandler.m */,
+				189C90B4304A11836FB4A40C795B1E30 /* IQNSArray+Sort.h */,
+				CB01C1297440515DA88B6B4AE86D7A5F /* IQNSArray+Sort.m */,
+				FBAA27AE856995F1CDD714E88F8ECDCD /* IQPreviousNextView.h */,
+				4C15DC91CD486208825B85485B0B00F8 /* IQPreviousNextView.m */,
+				38B5A8B8566C861513B180E6D05A4F52 /* IQTextView.h */,
+				2472ECC83BF104AE7026F0B7E816F2C0 /* IQTextView.m */,
+				326B06E697170E48D291CCAB5B194756 /* IQTitleBarButtonItem.h */,
+				033D8AA8997113635F9535EC2D061040 /* IQTitleBarButtonItem.m */,
+				B2BE1C754736B510FEFE3C9FA64E05DB /* IQToolbar.h */,
+				9ECEDFD88A146224DD396D4BADA25B26 /* IQToolbar.m */,
+				864ACB08131AD9FF9D51FA43BC853655 /* IQUIScrollView+Additions.h */,
+				8A746B4F4DD70EE9FEAC125F52AD9AD1 /* IQUIScrollView+Additions.m */,
+				6E54F97511FA7FAA91CBC163BEEBE45C /* IQUITextFieldView+Additions.h */,
+				A85D95AE8C82DE39E95B91E1DC71CC51 /* IQUITextFieldView+Additions.m */,
+				0CBDDBB93124188EDACB9CE56DF0AD77 /* IQUIView+Hierarchy.h */,
+				879CB55F3E503D673F59EC0B73CBE07C /* IQUIView+Hierarchy.m */,
+				0C2F52C991E8610B08A1FA60292329C4 /* IQUIView+IQKeyboardToolbar.h */,
+				027F47F140C6533212E81C1308BC4283 /* IQUIView+IQKeyboardToolbar.m */,
+				A25EB4FF16E3F9D10971A51D4DEC0C0E /* IQUIViewController+Additions.h */,
+				8BCCAEC5B0E2F1338DE967D2121AD620 /* IQUIViewController+Additions.m */,
+				1C291F74107C277BE63BF3A86CBE2B18 /* IQUIWindow+Hierarchy.h */,
+				622C39A05CD79DAC62C139C54A2CA22B /* IQUIWindow+Hierarchy.m */,
+				3CE9B26FBD74C7B8A142ED7EAAB40362 /* Resources */,
+				1A6A308702EB928EE7BFCC75C70946CC /* Support Files */,
+			);
+			path = IQKeyboardManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,59 +451,84 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8355574DA0DAA9F9C75D7DC7859B46DE /* Headers */ = {
+		11D63F74EED734D8586CF9FBC59EB612 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5F188CBEDE946A2E78910356AA92A52 /* Pods-MMADPay_Example-umbrella.h in Headers */,
+				B2EBFFB31617155A93856E042BE13CDD /* MMADPay-umbrella.h in Headers */,
+				C8D6B2A085F287A0EABB51CCDF562DF1 /* MMADPayConstants.h in Headers */,
+				85201A1EAFF1F953ED5684DEC338F5DF /* MMADPayCreatePostData.h in Headers */,
+				F7B5D7110D70090F1B035A27699E15DC /* MMADPayHashes.h in Headers */,
+				9E35E1E8FD093F9A93AE8FF797B51650 /* MMADPayHeader.h in Headers */,
+				456CBBFAC1A9E179F432F32325BBE0DE /* MMADPayPaymentModelParams.h in Headers */,
+				14BDDC6AEE2CBB29332143C82FD98047 /* MMADPayPaymentViewController.h in Headers */,
+				8EBEDFA28A0D554B65B74FDCB662D66F /* MMADPayUtils.h in Headers */,
+				4227747C8D10BEFDEAEC1648E0388FAF /* MMADPayValidations.h in Headers */,
+				DC4E07D953BA4695EA22D96060A1D536 /* MMADPayWebserviceHandler.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B50AAF548BCFEB3DDA796D01339212BF /* Headers */ = {
+		15F124D2ED467C64EE4E8AD1AD8F4BEB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E41A79173AE129269F59472D655DFB32 /* MMADPay-umbrella.h in Headers */,
-				F6C7BA05BA3014AE2A6BC1F92BDDFE9E /* MMADPayConstants.h in Headers */,
-				45A7D8780264FAFCEC96259F97BD8DD9 /* MMADPayCreatePostData.h in Headers */,
-				77226C1D9CFF47F65A9403EF1ABF5CC1 /* MMADPayHashes.h in Headers */,
-				0F1AA6AAC944909AF630311B43DA48A4 /* MMADPayPaymentModelParams.h in Headers */,
-				F00A43D800860BC1C1E93EC3A31820FA /* MMADPayPaymentViewController.h in Headers */,
-				0C6F9059CE3FA321DCA6AAF8B765EC79 /* MMADPayUtils.h in Headers */,
-				9ED558244AC3F1C688680A132D0C8B78 /* MMADPayValidations.h in Headers */,
-				266E36EA235ED7DC8070317BAF244DAB /* MMADPayWebserviceHandler.h in Headers */,
+				A9E42CC45FD71B38F532643C3BD8934F /* IQBarButtonItem.h in Headers */,
+				5CDF0C05D13E7DA75A626D2A56D3804F /* IQKeyboardManager-umbrella.h in Headers */,
+				63521E633F5EA450D3E79EAA40B8D458 /* IQKeyboardManager.h in Headers */,
+				57602CD59C85D4D6A781F7267AE2EE8B /* IQKeyboardManagerConstants.h in Headers */,
+				014BB832E93832634E095EED7A914D02 /* IQKeyboardManagerConstantsInternal.h in Headers */,
+				57F39E6FA17DA6EE64DD7FEEE9B50B06 /* IQKeyboardReturnKeyHandler.h in Headers */,
+				3D445E46E9A0DBC7EE04A0D6633564D3 /* IQNSArray+Sort.h in Headers */,
+				D9AD2EB3539128A89E0ABED7A64DB455 /* IQPreviousNextView.h in Headers */,
+				1EB9A3C9B8BBE8633574895B21E6669B /* IQTextView.h in Headers */,
+				152389779F3A613C0EAE6DC07E8DD029 /* IQTitleBarButtonItem.h in Headers */,
+				B9548D587DD2C24B5FEE71F136E44D6B /* IQToolbar.h in Headers */,
+				60D8DBAEF5140AB6D447788D20117595 /* IQUIScrollView+Additions.h in Headers */,
+				33AE9F72E40A4EBA41AD1A47211E2B2A /* IQUITextFieldView+Additions.h in Headers */,
+				1748943A9E8A6CD3FF42FF12ED330B65 /* IQUIView+Hierarchy.h in Headers */,
+				C6FF8F0FED3ADDD3C629574093487897 /* IQUIView+IQKeyboardToolbar.h in Headers */,
+				E62D23900BC87F851BC637427042B214 /* IQUIViewController+Additions.h in Headers */,
+				24E1F5D4F5C07EE1C1415FBF13C174D2 /* IQUIWindow+Hierarchy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367AD6AA1410F95D464730FA041D3AEB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897916A29FF8C3B3FDD057E153855D43 /* Pods-MMADPay_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		655E352235D0C6A28EF6BA85BE1E43B1 /* Pods-MMADPay_Example */ = {
+		5F282CF4CD85DA704A7339AB40278593 /* Pods-MMADPay_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63DAD45493E0004692A0E73789E2B563 /* Build configuration list for PBXNativeTarget "Pods-MMADPay_Example" */;
+			buildConfigurationList = 5D6648D6C994BA2BAAFB62B1D3C8616C /* Build configuration list for PBXNativeTarget "Pods-MMADPay_Example" */;
 			buildPhases = (
-				532AA594D0676046A9C18D7C48B0B316 /* Sources */,
-				7905E16FFEEBDE071E6D41BA996F2955 /* Frameworks */,
-				8355574DA0DAA9F9C75D7DC7859B46DE /* Headers */,
+				2E0E8FF37A62CA23E04012F26F37238C /* Sources */,
+				A07DA15D44D134D363E9F922F448ED13 /* Frameworks */,
+				367AD6AA1410F95D464730FA041D3AEB /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A561EF65D5037A1FA39FEF6B22D14E59 /* PBXTargetDependency */,
+				F0E03680840CF925717FA2AFDF8A91EE /* PBXTargetDependency */,
+				011DAF810B690DFE979BC1EE274FE6D5 /* PBXTargetDependency */,
 			);
 			name = "Pods-MMADPay_Example";
 			productName = "Pods-MMADPay_Example";
-			productReference = 2D5B8162EEB130E23645E8DE917E53D9 /* Pods_MMADPay_Example.framework */;
+			productReference = A28F51DCE88059475A249295ACDD2A63 /* Pods_MMADPay_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8B601FB088D04259D0B1172C4ADBAF21 /* MMADPay */ = {
+		670C989254AFDBFBF1F4F4CEDA1D18E8 /* MMADPay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63DB6844321CBF9ADC760C919FCF3B30 /* Build configuration list for PBXNativeTarget "MMADPay" */;
+			buildConfigurationList = 2B9FA7EACDD44CC2497046FFFE9B4EAE /* Build configuration list for PBXNativeTarget "MMADPay" */;
 			buildPhases = (
-				C869577B8B6AF8C4429355D0CDF6FC2A /* Sources */,
-				ECECAE8C7A0D07ED8A44878CF19C4CD1 /* Frameworks */,
-				B50AAF548BCFEB3DDA796D01339212BF /* Headers */,
-				872287101DF7EAC80018F251 /* Resources */,
+				14EC1F7D6F1400B010A5DC0A4464B2C9 /* Sources */,
+				5AE6C8F607EAA39C95F995E9EC7381D7 /* Frameworks */,
+				11D63F74EED734D8586CF9FBC59EB612 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -341,7 +536,25 @@
 			);
 			name = MMADPay;
 			productName = MMADPay;
-			productReference = DBFF4543D43B75BBC5C8FCD3FD6BA087 /* MMADPay.framework */;
+			productReference = 20AD90FF0EDC3092B70CB67F77E877F3 /* MMADPay.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C36CB2CB977A4E7D954935096D00A1ED /* IQKeyboardManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5C052874402BEACAF428E2C2F3C406 /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */;
+			buildPhases = (
+				F80392970FE7A6590B59ABA8EF26286E /* Sources */,
+				A5220702F0A18A2B878F4C83551FF3A9 /* Frameworks */,
+				15F124D2ED467C64EE4E8AD1AD8F4BEB /* Headers */,
+				B808376D2FEE9E833BC4FCC75A57C760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQKeyboardManager;
+			productName = IQKeyboardManager;
+			productReference = E28A6CFFC3FE5B4B169609BA661AF116 /* IQKeyboardManager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EFFB23D82F0D586E0837E89CCD7FD213 /* Pods-MMADPay_Tests */ = {
@@ -358,7 +571,7 @@
 			);
 			name = "Pods-MMADPay_Tests";
 			productName = "Pods-MMADPay_Tests";
-			productReference = 434A37B1CFE329A586731135927E5E96 /* Pods_MMADPay_Tests.framework */;
+			productReference = 0443FFC313E19C87C01D6AB4E5840D86 /* Pods_MMADPay_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -378,29 +591,54 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = BE8239C427A154D1E6362DD47C46C5C7 /* Products */;
+			productRefGroup = 2536FD84204B5FACE84A032600E4EF91 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8B601FB088D04259D0B1172C4ADBAF21 /* MMADPay */,
-				655E352235D0C6A28EF6BA85BE1E43B1 /* Pods-MMADPay_Example */,
+				C36CB2CB977A4E7D954935096D00A1ED /* IQKeyboardManager */,
+				670C989254AFDBFBF1F4F4CEDA1D18E8 /* MMADPay */,
+				5F282CF4CD85DA704A7339AB40278593 /* Pods-MMADPay_Example */,
 				EFFB23D82F0D586E0837E89CCD7FD213 /* Pods-MMADPay_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		872287101DF7EAC80018F251 /* Resources */ = {
+		B808376D2FEE9E833BC4FCC75A57C760 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				872287111DF7EACF0018F251 /* MMADPayMainStoryboard.storyboard in Resources */,
+				A8B53F29975200B5D116BE9A36AC9625 /* IQKeyboardManager.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		14EC1F7D6F1400B010A5DC0A4464B2C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820866489A7A302208B961A40ACD1C17 /* MMADPay-dummy.m in Sources */,
+				EC5FC8AE495678E3CE31F52B77FD70C6 /* MMADPayConstants.m in Sources */,
+				BA5852F52807DD1BA2EFC80450FF5CDD /* MMADPayCreatePostData.m in Sources */,
+				0787B919149D52BD45F6D038924DDDEE /* MMADPayHashes.m in Sources */,
+				4AF222720B8058BA61A1724E8AB60EE7 /* MMADPayPaymentModelParams.m in Sources */,
+				9006A4810153ADC1DAA7086DFD64DC1A /* MMADPayPaymentViewController.m in Sources */,
+				EFC74392DBF8FA4E7C08BC00A080CD23 /* MMADPayUtils.m in Sources */,
+				1E5A9332C5DD2E2CB1A8E9A650074D6C /* MMADPayValidations.m in Sources */,
+				7E7A17C6F856A3EC94F4CFB077F7EB00 /* MMADPayWebserviceHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0E8FF37A62CA23E04012F26F37238C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C90C307DE950C9153E10F3FEBAAD092 /* Pods-MMADPay_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4486753EB1970CE6FB5F709A96A191A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -409,45 +647,84 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		532AA594D0676046A9C18D7C48B0B316 /* Sources */ = {
+		F80392970FE7A6590B59ABA8EF26286E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07D9C4B5E55AEC3CC2730238D51A0B17 /* Pods-MMADPay_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C869577B8B6AF8C4429355D0CDF6FC2A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E258B3DD4E4553556970B044E785A9FB /* MMADPay-dummy.m in Sources */,
-				734AB5C5421D2766001FEA3266C919FA /* MMADPayConstants.m in Sources */,
-				1FB1AD827D4915B6B38D8AB27E95F29B /* MMADPayCreatePostData.m in Sources */,
-				AF42723EE727975F8ECE5BF95A5BBC8D /* MMADPayHashes.m in Sources */,
-				19DA44976194610798E6CAE9E96A2DD4 /* MMADPayPaymentModelParams.m in Sources */,
-				BECA187277702AAC31A73551549C6435 /* MMADPayPaymentViewController.m in Sources */,
-				8B75524B04D7042F9BFBDEA4B76C6DD8 /* MMADPayUtils.m in Sources */,
-				DA0EDABA32D61959E710901884A9B422 /* MMADPayValidations.m in Sources */,
-				D315AE7578C33286E707AFB54FA025C5 /* MMADPayWebserviceHandler.m in Sources */,
+				85CCC724DF5432D149EE53936C20C61C /* IQBarButtonItem.m in Sources */,
+				69BC64FA6EF6E7D967A051E53B7E50A1 /* IQKeyboardManager-dummy.m in Sources */,
+				FE3F0DD9F7B386BA9F5D6EF561AD6B70 /* IQKeyboardManager.m in Sources */,
+				B9C2D2D2787674E1ABF18675D5CB6C06 /* IQKeyboardReturnKeyHandler.m in Sources */,
+				EF59FAF202E5C9DBFAD2CFA028895214 /* IQNSArray+Sort.m in Sources */,
+				C1E4A971CF84B06064F82D87044449E8 /* IQPreviousNextView.m in Sources */,
+				416FA8B963C82F9BD251B04EA528B6FD /* IQTextView.m in Sources */,
+				0E434D8AC2D4367AA481F8082FE45D65 /* IQTitleBarButtonItem.m in Sources */,
+				9CDD05F3FF8498F2F0513A20B858B689 /* IQToolbar.m in Sources */,
+				83600557B65E2614D7F683A0D3F74D90 /* IQUIScrollView+Additions.m in Sources */,
+				02742ED90591BC1183A1DE46CB6DFD40 /* IQUITextFieldView+Additions.m in Sources */,
+				00311CA07AA560C1D4A6A656C492436F /* IQUIView+Hierarchy.m in Sources */,
+				D8EC7C59672A6275D2ABFEE9556F5B4A /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				9C2B4ABD7ACF23AAEF514982A55D99EE /* IQUIViewController+Additions.m in Sources */,
+				532F0A73022F47783FCF897CFB0686EC /* IQUIWindow+Hierarchy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A561EF65D5037A1FA39FEF6B22D14E59 /* PBXTargetDependency */ = {
+		011DAF810B690DFE979BC1EE274FE6D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MMADPay;
-			target = 8B601FB088D04259D0B1172C4ADBAF21 /* MMADPay */;
-			targetProxy = E1494DBC9A6DE1012975B99957110ED0 /* PBXContainerItemProxy */;
+			target = 670C989254AFDBFBF1F4F4CEDA1D18E8 /* MMADPay */;
+			targetProxy = 76213FCD802D343FD8A3368296ABE677 /* PBXContainerItemProxy */;
+		};
+		F0E03680840CF925717FA2AFDF8A91EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManager;
+			target = C36CB2CB977A4E7D954935096D00A1ED /* IQKeyboardManager */;
+			targetProxy = 790F3E3C102C9646E389CA3F40C82127 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		76276986C8F37BE76DB117A4F706D423 /* Release */ = {
+		3D24F4074CA2DB9B5001A7FE02D1CFB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35A8501A4CF391CD028F82FC4AA2D6A3 /* Pods-MMADPay_Tests.release.xcconfig */;
+			baseConfigurationReference = 30F3DF15B341282387CD364F94653DFC /* Pods-MMADPay_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MMADPay_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MMADPay_Example/Pods-MMADPay_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MMADPay_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		48B7D7C6C39745577FD7508F1018FD95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E10539513165C394908539CC4DED447C /* Pods-MMADPay_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -460,18 +737,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MMADPay_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MMADPay_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MMADPay_Tests/Pods-MMADPay_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-MMADPay_Example/Pods-MMADPay_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MMADPay_Tests;
+				PRODUCT_NAME = Pods_MMADPay_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -480,73 +757,7 @@
 			};
 			name = Release;
 		};
-		80215A712EBC42FB1AD5047173C289C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5082FB6DEF73383DCBB67C362EC55AEA /* MMADPay.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MMADPay/MMADPay-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MMADPay/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MMADPay/MMADPay.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MMADPay;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B521B88136E92DBA7B359D5E8796AA1F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEA5AD73D901158D80E2E830A3D52132 /* Pods-MMADPay_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MMADPay_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MMADPay_Tests/Pods-MMADPay_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MMADPay_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */ = {
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -582,7 +793,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -590,9 +801,9 @@
 			};
 			name = Debug;
 		};
-		D6620933D33624BB3A8D1DF0B6D0607F /* Debug */ = {
+		61D539785BBC60FD89A5D265E9DDAF2F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30F3DF15B341282387CD364F94653DFC /* Pods-MMADPay_Example.debug.xcconfig */;
+			baseConfigurationReference = AEA5AD73D901158D80E2E830A3D52132 /* Pods-MMADPay_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -605,18 +816,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MMADPay_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-MMADPay_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MMADPay_Example/Pods-MMADPay_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-MMADPay_Tests/Pods-MMADPay_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MMADPay_Example;
+				PRODUCT_NAME = Pods_MMADPay_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -625,9 +836,9 @@
 			};
 			name = Debug;
 		};
-		DD376E7D44F581601C23FF7B825AC419 /* Release */ = {
+		7A3EEAC5E1FDE0F69C1406B4EFBEC58C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5082FB6DEF73383DCBB67C362EC55AEA /* MMADPay.xcconfig */;
+			baseConfigurationReference = 290F7289CD50236188DE133452D03EAE /* IQKeyboardManager.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -640,14 +851,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MMADPay/MMADPay-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MMADPay/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MMADPay/MMADPay.modulemap";
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MMADPay;
+				PRODUCT_NAME = IQKeyboardManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -656,7 +867,104 @@
 			};
 			name = Release;
 		};
-		ED4FC68AB2A4E06C718CFF338F6F156B /* Release */ = {
+		7F64FBEBC5C1DA6AF83688AFB98C5759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 290F7289CD50236188DE133452D03EAE /* IQKeyboardManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = IQKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D6261F01B4F552CFC752B509A948592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A8501A4CF391CD028F82FC4AA2D6A3 /* Pods-MMADPay_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MMADPay_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MMADPay_Tests/Pods-MMADPay_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MMADPay_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA071B37B020D835AC00FAB2BD2C6194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5082FB6DEF73383DCBB67C362EC55AEA /* MMADPay.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMADPay/MMADPay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMADPay/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMADPay/MMADPay.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MMADPay;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -688,7 +996,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -696,9 +1004,9 @@
 			};
 			name = Release;
 		};
-		F297D2E8AD4B482599AE3A86FA3D02E5 /* Release */ = {
+		B7E43F2D91BFEEC3426839A5ADF0DE49 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E10539513165C394908539CC4DED447C /* Pods-MMADPay_Example.release.xcconfig */;
+			baseConfigurationReference = 5082FB6DEF73383DCBB67C362EC55AEA /* MMADPay.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -711,18 +1019,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MMADPay_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MMADPay/MMADPay-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMADPay/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MMADPay_Example/Pods-MMADPay_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/MMADPay/MMADPay.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MMADPay_Example;
+				PRODUCT_NAME = MMADPay;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -737,8 +1041,17 @@
 		00853C3AD71591AE99B9A38AB7E6F7A0 /* Build configuration list for PBXNativeTarget "Pods-MMADPay_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B521B88136E92DBA7B359D5E8796AA1F /* Debug */,
-				76276986C8F37BE76DB117A4F706D423 /* Release */,
+				61D539785BBC60FD89A5D265E9DDAF2F /* Debug */,
+				9D6261F01B4F552CFC752B509A948592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B9FA7EACDD44CC2497046FFFE9B4EAE /* Build configuration list for PBXNativeTarget "MMADPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA071B37B020D835AC00FAB2BD2C6194 /* Debug */,
+				B7E43F2D91BFEEC3426839A5ADF0DE49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -746,26 +1059,26 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CACE7C8415F53E79F07C6BBE57F0F61D /* Debug */,
-				ED4FC68AB2A4E06C718CFF338F6F156B /* Release */,
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63DAD45493E0004692A0E73789E2B563 /* Build configuration list for PBXNativeTarget "Pods-MMADPay_Example" */ = {
+		5D6648D6C994BA2BAAFB62B1D3C8616C /* Build configuration list for PBXNativeTarget "Pods-MMADPay_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6620933D33624BB3A8D1DF0B6D0607F /* Debug */,
-				F297D2E8AD4B482599AE3A86FA3D02E5 /* Release */,
+				3D24F4074CA2DB9B5001A7FE02D1CFB1 /* Debug */,
+				48B7D7C6C39745577FD7508F1018FD95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63DB6844321CBF9ADC760C919FCF3B30 /* Build configuration list for PBXNativeTarget "MMADPay" */ = {
+		AA5C052874402BEACAF428E2C2F3C406 /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80215A712EBC42FB1AD5047173C289C3 /* Debug */,
-				DD376E7D44F581601C23FF7B825AC419 /* Release */,
+				7F64FBEBC5C1DA6AF83688AFB98C5759 /* Debug */,
+				7A3EEAC5E1FDE0F69C1406B4EFBEC58C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

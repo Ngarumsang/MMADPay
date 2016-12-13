@@ -9,5 +9,5 @@
 #import "MMADPayConstants.h"
 
 @implementation MMADPayConstants
-NSString * const kMMADPayEnablePaymentNotification =  @"NotifyPayment";
+NSString * const kMMADPayEnablePaymentNotification =  @"NotifyPaymentStatus";
 @end
