@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'MMADPay' => ['MMADPay/Assets/*.png']
   # }
 
-s.public_header_files = 'Pod/Classes/{MMADPayPaymentModelParams,MMADPayConstants,MMADPayPaymentViewController}.h'
+s.public_header_files = 'MMADPay/Classes/{MMADPayPaymentModelParams,MMADPayConstants,MMADPayPaymentViewController}.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
