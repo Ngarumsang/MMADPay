@@ -15,5 +15,6 @@
 #import "MMADPayCreatePostData.h"
 #import "MMADPayPaymentModelParams.h"
 #import "MMADPayHashes.h"
+#import "MMADPayPaymentManager.h"
 
 #endif /* MMADPayHeader_h */

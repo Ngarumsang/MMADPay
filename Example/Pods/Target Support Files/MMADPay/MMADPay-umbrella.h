@@ -6,6 +6,7 @@
 #import "MMADPayCreatePostData.h"
 #import "MMADPayHashes.h"
 #import "MMADPayHeader.h"
+#import "MMADPayPaymentManager.h"
 #import "MMADPayPaymentModelParams.h"
 #import "MMADPayPaymentViewController.h"
 #import "MMADPayUtils.h"

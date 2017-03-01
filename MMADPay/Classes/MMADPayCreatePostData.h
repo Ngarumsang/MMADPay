@@ -11,6 +11,14 @@
 
 @interface MMADPayCreatePostData : NSObject
 
+///-------------------------------
+/// @name HTTP form data Handling
+///-------------------------------
+
+/**
+    Create http post data and return in NSData format.
+ @param params All the mandatory field should not be left blank
+*/
 - (NSData *)createPostDataFromPaymentModel: (MMADPayPaymentModelParams*)params;
 
 @end

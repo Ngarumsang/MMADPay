@@ -10,13 +10,12 @@
 
 @class MMADPayWebserviceHandler;
 //Custom block to handle success and failure session request
-typedef void (^MMADPayWebserviceRequestData)(id responseObject);
+typedef void (^MMADPayWebserviceRequestData)(id requestData);
 
 @interface MMADPayWebserviceHandler : NSObject
 
-+(instancetype)sharedInstance;
 
-- (void)callWebService:(NSString *)urlString
+- (void)createRequest:(NSString *)urlString
             paramaters:(NSData *)paramaters
      completionHandler:(MMADPayWebserviceRequestData)requestData;
 

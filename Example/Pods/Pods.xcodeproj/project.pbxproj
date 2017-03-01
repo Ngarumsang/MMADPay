@@ -7,32 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0787B919149D52BD45F6D038924DDDEE /* MMADPayHashes.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F699150221635F94E053105B8EF8DD /* MMADPayHashes.m */; };
 		07D9C4B5E55AEC3CC2730238D51A0B17 /* Pods-MMADPay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E98CB89F603CAD3751CD733F56CC4A65 /* Pods-MMADPay_Example-dummy.m */; };
-		14BDDC6AEE2CBB29332143C82FD98047 /* MMADPayPaymentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 03D2C264E99A28CD606E66863E53F839 /* MMADPayPaymentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E5A9332C5DD2E2CB1A8E9A650074D6C /* MMADPayValidations.m in Sources */ = {isa = PBXBuildFile; fileRef = C576CDD7ABCDBB4A4207F87E17988CBC /* MMADPayValidations.m */; };
+		0B2954F946C52325C89444ACB2F140B9 /* MMADPayPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BE2AD06151F9D965202ADB4F71EBBE /* MMADPayPaymentViewController.m */; };
+		0CD5B118F7388859C91AB29969116303 /* MMADPayPaymentManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 60A53980F2FB4F0646E6731C98DFFD0A /* MMADPayPaymentManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D88B37DEEF22F6805FD372481176DB5 /* MMADPayHashes.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA567C95928204172F45E49DE59CBDC /* MMADPayHashes.m */; };
+		0E1522F70543D91E4984E56C7B65C264 /* MMADPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D42989D9380D55282A49C08769B6A6E /* MMADPay-dummy.m */; };
+		203F99F7018D55FD7EBC1487F3579D9D /* MMADPayPaymentModelParams.h in Headers */ = {isa = PBXBuildFile; fileRef = EB9A7B0F085D773AADFFBA98D8872641 /* MMADPayPaymentModelParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31BD4FB207BDE4F83CFF4E844E8DFBEE /* Pods-MMADPay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3A5E9764FFCFA9094CA2D89BCF36F5 /* Pods-MMADPay_Tests-dummy.m */; };
-		351BC9417E7612D546508B99F1897331 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		4227747C8D10BEFDEAEC1648E0388FAF /* MMADPayValidations.h in Headers */ = {isa = PBXBuildFile; fileRef = ECCAE0099D3BA7391E5665B2EBEAE60A /* MMADPayValidations.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		456CBBFAC1A9E179F432F32325BBE0DE /* MMADPayPaymentModelParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 195FD8CDF87456332D8D9B5BAE15EC29 /* MMADPayPaymentModelParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AF222720B8058BA61A1724E8AB60EE7 /* MMADPayPaymentModelParams.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D45B315C8863A7FF69E5BBF9D1FB2B /* MMADPayPaymentModelParams.m */; };
+		332B75C66E7015B4F320A43E559FBB24 /* MMADPayWebserviceHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E25BF98AD3A2ACB99262B97CE8AEC9C /* MMADPayWebserviceHandler.m */; };
+		345E5F34F89A9D52151A24D6984D4147 /* MMADPayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEC4615C7D4384BC01CD7D33E4FEC53 /* MMADPayUtils.m */; };
+		3D9D8905D0C6F2733E54FE39D824C839 /* MMADPayPaymentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C9F460011A1C0F876FFF1798EA4AAF /* MMADPayPaymentManager.m */; };
+		47C51AEA535E28F5C1928D5DE7EE36BB /* MMADPayValidations.m in Sources */ = {isa = PBXBuildFile; fileRef = 350717B1A668F4B851AEE46BF1CAF24E /* MMADPayValidations.m */; };
+		56DEE37389B1F87C14E061AAB1DBCDE1 /* MMADPayUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 176634692D59CDAAD5FD8B83CC001388 /* MMADPayUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CA2E7FDE6656286744B97C947109F93 /* Pods-MMADPay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8EE652B34C951B0C51855AF989391B /* Pods-MMADPay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		618649F0B4EC3CB57494C98723097958 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		7E7A17C6F856A3EC94F4CFB077F7EB00 /* MMADPayWebserviceHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 991242C1B0BF778D47EBBFBA0F6E7573 /* MMADPayWebserviceHandler.m */; };
-		820866489A7A302208B961A40ACD1C17 /* MMADPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D42989D9380D55282A49C08769B6A6E /* MMADPay-dummy.m */; };
-		85201A1EAFF1F953ED5684DEC338F5DF /* MMADPayCreatePostData.h in Headers */ = {isa = PBXBuildFile; fileRef = 7343804F177CFB6541922AA0593622EA /* MMADPayCreatePostData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EBEDFA28A0D554B65B74FDCB662D66F /* MMADPayUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 51D2D7DBFFFDED08BD9E68198E029411 /* MMADPayUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9006A4810153ADC1DAA7086DFD64DC1A /* MMADPayPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A273824F17132F6850D38280CEFB8B93 /* MMADPayPaymentViewController.m */; };
-		9E35E1E8FD093F9A93AE8FF797B51650 /* MMADPayHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = CF84BB1DC6F13BB1A4351B114E7EC17E /* MMADPayHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2EBFFB31617155A93856E042BE13CDD /* MMADPay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88FFD27EAE60FBD94A921EEA5405B396 /* MMADPay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA5852F52807DD1BA2EFC80450FF5CDD /* MMADPayCreatePostData.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E8BFDA91C9678B00C555D57B4DF04D /* MMADPayCreatePostData.m */; };
+		65758DA1A21FE430730EA284DEA6EEB8 /* MMADPayWebserviceHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = E44A98FAB77D2A87C21F5B0FC336A324 /* MMADPayWebserviceHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6767B9670BACD269E7461374EF046527 /* MMADPayConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 592F7D558A08FE50887291A811F8197A /* MMADPayConstants.m */; };
+		82656865477DF1AA3B4A8199DE1B26A8 /* MMADPayCreatePostData.h in Headers */ = {isa = PBXBuildFile; fileRef = 05253F8BB4EF00A4348083589FE935E0 /* MMADPayCreatePostData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84920F404AFE1839217B7ED2ACC21D6E /* MMADPayConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = A34B1CBD0AC8B7DEF7F865792DE1220F /* MMADPayConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8636E0822A411F3ADCBA112D16063726 /* MMADPayCreatePostData.m in Sources */ = {isa = PBXBuildFile; fileRef = D227A5E6A2F03A8C5B472820370DC7D9 /* MMADPayCreatePostData.m */; };
+		8B152F38D81733BDE39AB5D1EEFC50B8 /* MMADPayValidations.h in Headers */ = {isa = PBXBuildFile; fileRef = B297D00AA4AF85612256F938F8CBD874 /* MMADPayValidations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E29A19578DBEC00C3750990C0189295 /* MMADPayPaymentModelParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F898600778873B56BD60D30EDA1F1C /* MMADPayPaymentModelParams.m */; };
+		8E38EE6E2E9785DB4604EAA499FADAE2 /* MMADPayHashes.h in Headers */ = {isa = PBXBuildFile; fileRef = 1523F191FEB2F30EF0AE1034539AAB95 /* MMADPayHashes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD378413D8988D4ECF3FFCCD3AECB77A /* MMADPayHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 33149B90DB15CAF25E0EAA665578DBE4 /* MMADPayHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEB127D17FD1E21374271A29DB11514B /* MMADPayPaymentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 97807D26A76050BA6D909C975CC30E01 /* MMADPayPaymentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F493F1C48159428B9BEBEFB5386C5C /* MMADPay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88FFD27EAE60FBD94A921EEA5405B396 /* MMADPay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5F188CBEDE946A2E78910356AA92A52 /* Pods-MMADPay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5666D25E5BBA5BD94A90ABB24DD4FDF /* Pods-MMADPay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8D6B2A085F287A0EABB51CCDF562DF1 /* MMADPayConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 3173FC7AD381A07F3B2E15801E48CAB7 /* MMADPayConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC750CBF3E875BA1D51267B53358DD2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		D1F7B968B7B5F768D4A4CC44ABD13437 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		DC4E07D953BA4695EA22D96060A1D536 /* MMADPayWebserviceHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = AF0F92F51F77B0A8C595EB94ECDFB0A3 /* MMADPayWebserviceHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC5FC8AE495678E3CE31F52B77FD70C6 /* MMADPayConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4686E518EB6F3EE0F20CDEFEF95F268E /* MMADPayConstants.m */; };
-		EFC74392DBF8FA4E7C08BC00A080CD23 /* MMADPayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2824DF3F4907C3CA82EAC640B06F1D43 /* MMADPayUtils.m */; };
-		F7B5D7110D70090F1B035A27699E15DC /* MMADPayHashes.h in Headers */ = {isa = PBXBuildFile; fileRef = B6FDD9D91D091B6BF9AF223739F383EA /* MMADPayHashes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,68 +42,70 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 670C989254AFDBFBF1F4F4CEDA1D18E8;
+			remoteGlobalIDString = A506818CDBE928D4D4E0365D6A86F94D;
 			remoteInfo = MMADPay;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03D2C264E99A28CD606E66863E53F839 /* MMADPayPaymentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayPaymentViewController.h; sourceTree = "<group>"; };
-		195FD8CDF87456332D8D9B5BAE15EC29 /* MMADPayPaymentModelParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayPaymentModelParams.h; sourceTree = "<group>"; };
+		05253F8BB4EF00A4348083589FE935E0 /* MMADPayCreatePostData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayCreatePostData.h; sourceTree = "<group>"; };
+		0AA567C95928204172F45E49DE59CBDC /* MMADPayHashes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayHashes.m; sourceTree = "<group>"; };
+		1523F191FEB2F30EF0AE1034539AAB95 /* MMADPayHashes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayHashes.h; sourceTree = "<group>"; };
+		176634692D59CDAAD5FD8B83CC001388 /* MMADPayUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayUtils.h; sourceTree = "<group>"; };
 		2210C2924695E4C6E3B5661A967C2EEE /* Pods-MMADPay_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMADPay_Tests-resources.sh"; sourceTree = "<group>"; };
-		2824DF3F4907C3CA82EAC640B06F1D43 /* MMADPayUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayUtils.m; sourceTree = "<group>"; };
-		2D5B8162EEB130E23645E8DE917E53D9 /* Pods_MMADPay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MMADPay_Example.framework; path = "Pods-MMADPay_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D5B8162EEB130E23645E8DE917E53D9 /* Pods_MMADPay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMADPay_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F3DF15B341282387CD364F94653DFC /* Pods-MMADPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMADPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3173FC7AD381A07F3B2E15801E48CAB7 /* MMADPayConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayConstants.h; sourceTree = "<group>"; };
+		33149B90DB15CAF25E0EAA665578DBE4 /* MMADPayHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayHeader.h; sourceTree = "<group>"; };
+		350717B1A668F4B851AEE46BF1CAF24E /* MMADPayValidations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayValidations.m; sourceTree = "<group>"; };
 		35A8501A4CF391CD028F82FC4AA2D6A3 /* Pods-MMADPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMADPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3AA6D0F43871EAA4C87A6F16491A1278 /* Pods-MMADPay_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMADPay_Example-resources.sh"; sourceTree = "<group>"; };
-		434A37B1CFE329A586731135927E5E96 /* Pods_MMADPay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MMADPay_Tests.framework; path = "Pods-MMADPay_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4686E518EB6F3EE0F20CDEFEF95F268E /* MMADPayConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayConstants.m; sourceTree = "<group>"; };
+		3E25BF98AD3A2ACB99262B97CE8AEC9C /* MMADPayWebserviceHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayWebserviceHandler.m; sourceTree = "<group>"; };
+		434A37B1CFE329A586731135927E5E96 /* Pods_MMADPay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMADPay_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		495057261C2E70ED6431D2986CAF035C /* Pods-MMADPay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMADPay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5082FB6DEF73383DCBB67C362EC55AEA /* MMADPay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMADPay.xcconfig; sourceTree = "<group>"; };
-		51D2D7DBFFFDED08BD9E68198E029411 /* MMADPayUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayUtils.h; sourceTree = "<group>"; };
-		5A82191F4028F66C85A7F3E98FDF877D /* MMADPay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MMADPay.modulemap; sourceTree = "<group>"; };
+		592F7D558A08FE50887291A811F8197A /* MMADPayConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayConstants.m; sourceTree = "<group>"; };
+		5A82191F4028F66C85A7F3E98FDF877D /* MMADPay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MMADPay.modulemap; sourceTree = "<group>"; };
 		5D42989D9380D55282A49C08769B6A6E /* MMADPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMADPay-dummy.m"; sourceTree = "<group>"; };
 		5F508A047629F360F347AAF9A5C5BE98 /* Pods-MMADPay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMADPay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		60A53980F2FB4F0646E6731C98DFFD0A /* MMADPayPaymentManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayPaymentManager.h; sourceTree = "<group>"; };
+		66F898600778873B56BD60D30EDA1F1C /* MMADPayPaymentModelParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayPaymentModelParams.m; sourceTree = "<group>"; };
+		69BE2AD06151F9D965202ADB4F71EBBE /* MMADPayPaymentViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayPaymentViewController.m; sourceTree = "<group>"; };
 		6D3A5E9764FFCFA9094CA2D89BCF36F5 /* Pods-MMADPay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMADPay_Tests-dummy.m"; sourceTree = "<group>"; };
 		72776533262E4C7E0AEB4934E5596861 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7343804F177CFB6541922AA0593622EA /* MMADPayCreatePostData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayCreatePostData.h; sourceTree = "<group>"; };
 		76AA8EF4F151B8685A54297FEC665444 /* Pods-MMADPay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMADPay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		883FAFC5C4853322F75A8DA6C0ECD3D2 /* Pods-MMADPay_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMADPay_Example-frameworks.sh"; sourceTree = "<group>"; };
 		88FFD27EAE60FBD94A921EEA5405B396 /* MMADPay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMADPay-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		977C628E1AF9C661F8EE317CC287044C /* MMADPay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMADPay-prefix.pch"; sourceTree = "<group>"; };
-		991242C1B0BF778D47EBBFBA0F6E7573 /* MMADPayWebserviceHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayWebserviceHandler.m; sourceTree = "<group>"; };
-		A273824F17132F6850D38280CEFB8B93 /* MMADPayPaymentViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayPaymentViewController.m; sourceTree = "<group>"; };
+		97807D26A76050BA6D909C975CC30E01 /* MMADPayPaymentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayPaymentViewController.h; sourceTree = "<group>"; };
+		A34B1CBD0AC8B7DEF7F865792DE1220F /* MMADPayConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayConstants.h; sourceTree = "<group>"; };
 		A3F5CC2353E40250CE1FDA0095DC71BD /* Pods-MMADPay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMADPay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A6D45B315C8863A7FF69E5BBF9D1FB2B /* MMADPayPaymentModelParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayPaymentModelParams.m; sourceTree = "<group>"; };
-		ADAD7FFAC68CE716D6EDED5098FCDCF3 /* Pods-MMADPay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MMADPay_Tests.modulemap"; sourceTree = "<group>"; };
+		ADAD7FFAC68CE716D6EDED5098FCDCF3 /* Pods-MMADPay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MMADPay_Tests.modulemap"; sourceTree = "<group>"; };
 		AEA5AD73D901158D80E2E830A3D52132 /* Pods-MMADPay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMADPay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AF0F92F51F77B0A8C595EB94ECDFB0A3 /* MMADPayWebserviceHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayWebserviceHandler.h; sourceTree = "<group>"; };
+		B297D00AA4AF85612256F938F8CBD874 /* MMADPayValidations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayValidations.h; sourceTree = "<group>"; };
 		B45C4307C1A293EC8CF3AF51BB050C5E /* Pods-MMADPay_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMADPay_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		B6FDD9D91D091B6BF9AF223739F383EA /* MMADPayHashes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayHashes.h; sourceTree = "<group>"; };
-		BC18807D2A8646EFD40D04FA0CEEE508 /* Pods-MMADPay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MMADPay_Example.modulemap"; sourceTree = "<group>"; };
-		C576CDD7ABCDBB4A4207F87E17988CBC /* MMADPayValidations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayValidations.m; sourceTree = "<group>"; };
+		BC18807D2A8646EFD40D04FA0CEEE508 /* Pods-MMADPay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MMADPay_Example.modulemap"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CF84BB1DC6F13BB1A4351B114E7EC17E /* MMADPayHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayHeader.h; sourceTree = "<group>"; };
 		D0BF4E3DF5FA3A607837D6EB8D2E7BBD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0F699150221635F94E053105B8EF8DD /* MMADPayHashes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayHashes.m; sourceTree = "<group>"; };
+		D227A5E6A2F03A8C5B472820370DC7D9 /* MMADPayCreatePostData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayCreatePostData.m; sourceTree = "<group>"; };
 		D2D12AFC6C8CF4474FEFE8A33CFD4CEA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2E8BFDA91C9678B00C555D57B4DF04D /* MMADPayCreatePostData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayCreatePostData.m; sourceTree = "<group>"; };
-		DBFF4543D43B75BBC5C8FCD3FD6BA087 /* MMADPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMADPay.framework; path = MMADPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBFF4543D43B75BBC5C8FCD3FD6BA087 /* MMADPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMADPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8EE652B34C951B0C51855AF989391B /* Pods-MMADPay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMADPay_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E10539513165C394908539CC4DED447C /* Pods-MMADPay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMADPay_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E44A98FAB77D2A87C21F5B0FC336A324 /* MMADPayWebserviceHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayWebserviceHandler.h; sourceTree = "<group>"; };
 		E5666D25E5BBA5BD94A90ABB24DD4FDF /* Pods-MMADPay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMADPay_Example-umbrella.h"; sourceTree = "<group>"; };
+		E5C9F460011A1C0F876FFF1798EA4AAF /* MMADPayPaymentManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayPaymentManager.m; sourceTree = "<group>"; };
 		E98CB89F603CAD3751CD733F56CC4A65 /* Pods-MMADPay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMADPay_Example-dummy.m"; sourceTree = "<group>"; };
-		ECCAE0099D3BA7391E5665B2EBEAE60A /* MMADPayValidations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayValidations.h; sourceTree = "<group>"; };
+		EB9A7B0F085D773AADFFBA98D8872641 /* MMADPayPaymentModelParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMADPayPaymentModelParams.h; sourceTree = "<group>"; };
+		FAEC4615C7D4384BC01CD7D33E4FEC53 /* MMADPayUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMADPayUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5AE6C8F607EAA39C95F995E9EC7381D7 /* Frameworks */ = {
+		3F11BCAB70708EB205BC8234E0CA9DDC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				351BC9417E7612D546508B99F1897331 /* Foundation.framework in Frameworks */,
+				CC750CBF3E875BA1D51267B53358DD2B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,13 +128,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16B8C8E40FE834E0A15BFDAAB9DDE8F4 /* MMADPay */ = {
+		0D0B31F20E3E3E09FE2280F23CE4822D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A99125A36F6B64145728BBD514E4A050 /* Classes */,
+				A34B1CBD0AC8B7DEF7F865792DE1220F /* MMADPayConstants.h */,
+				592F7D558A08FE50887291A811F8197A /* MMADPayConstants.m */,
+				05253F8BB4EF00A4348083589FE935E0 /* MMADPayCreatePostData.h */,
+				D227A5E6A2F03A8C5B472820370DC7D9 /* MMADPayCreatePostData.m */,
+				1523F191FEB2F30EF0AE1034539AAB95 /* MMADPayHashes.h */,
+				0AA567C95928204172F45E49DE59CBDC /* MMADPayHashes.m */,
+				33149B90DB15CAF25E0EAA665578DBE4 /* MMADPayHeader.h */,
+				60A53980F2FB4F0646E6731C98DFFD0A /* MMADPayPaymentManager.h */,
+				E5C9F460011A1C0F876FFF1798EA4AAF /* MMADPayPaymentManager.m */,
+				EB9A7B0F085D773AADFFBA98D8872641 /* MMADPayPaymentModelParams.h */,
+				66F898600778873B56BD60D30EDA1F1C /* MMADPayPaymentModelParams.m */,
+				97807D26A76050BA6D909C975CC30E01 /* MMADPayPaymentViewController.h */,
+				69BE2AD06151F9D965202ADB4F71EBBE /* MMADPayPaymentViewController.m */,
+				176634692D59CDAAD5FD8B83CC001388 /* MMADPayUtils.h */,
+				FAEC4615C7D4384BC01CD7D33E4FEC53 /* MMADPayUtils.m */,
+				B297D00AA4AF85612256F938F8CBD874 /* MMADPayValidations.h */,
+				350717B1A668F4B851AEE46BF1CAF24E /* MMADPayValidations.m */,
+				E44A98FAB77D2A87C21F5B0FC336A324 /* MMADPayWebserviceHandler.h */,
+				3E25BF98AD3A2ACB99262B97CE8AEC9C /* MMADPayWebserviceHandler.m */,
 			);
-			name = MMADPay;
-			path = MMADPay;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		403FB6EEB00A17702E78B42B00292D2F /* Pods-MMADPay_Tests */ = {
@@ -187,7 +208,7 @@
 		8F689B2C08B0CED5727A2A928027A0E5 /* MMADPay */ = {
 			isa = PBXGroup;
 			children = (
-				16B8C8E40FE834E0A15BFDAAB9DDE8F4 /* MMADPay */,
+				A64E63DAB90BAFB6DD4795D3FB3EFEE5 /* MMADPay */,
 				839DBE4EC4F2803BAA1F0761E2B04711 /* Support Files */,
 			);
 			name = MMADPay;
@@ -202,29 +223,12 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		A99125A36F6B64145728BBD514E4A050 /* Classes */ = {
+		A64E63DAB90BAFB6DD4795D3FB3EFEE5 /* MMADPay */ = {
 			isa = PBXGroup;
 			children = (
-				3173FC7AD381A07F3B2E15801E48CAB7 /* MMADPayConstants.h */,
-				4686E518EB6F3EE0F20CDEFEF95F268E /* MMADPayConstants.m */,
-				7343804F177CFB6541922AA0593622EA /* MMADPayCreatePostData.h */,
-				D2E8BFDA91C9678B00C555D57B4DF04D /* MMADPayCreatePostData.m */,
-				B6FDD9D91D091B6BF9AF223739F383EA /* MMADPayHashes.h */,
-				D0F699150221635F94E053105B8EF8DD /* MMADPayHashes.m */,
-				CF84BB1DC6F13BB1A4351B114E7EC17E /* MMADPayHeader.h */,
-				195FD8CDF87456332D8D9B5BAE15EC29 /* MMADPayPaymentModelParams.h */,
-				A6D45B315C8863A7FF69E5BBF9D1FB2B /* MMADPayPaymentModelParams.m */,
-				03D2C264E99A28CD606E66863E53F839 /* MMADPayPaymentViewController.h */,
-				A273824F17132F6850D38280CEFB8B93 /* MMADPayPaymentViewController.m */,
-				51D2D7DBFFFDED08BD9E68198E029411 /* MMADPayUtils.h */,
-				2824DF3F4907C3CA82EAC640B06F1D43 /* MMADPayUtils.m */,
-				ECCAE0099D3BA7391E5665B2EBEAE60A /* MMADPayValidations.h */,
-				C576CDD7ABCDBB4A4207F87E17988CBC /* MMADPayValidations.m */,
-				AF0F92F51F77B0A8C595EB94ECDFB0A3 /* MMADPayWebserviceHandler.h */,
-				991242C1B0BF778D47EBBFBA0F6E7573 /* MMADPayWebserviceHandler.m */,
+				0D0B31F20E3E3E09FE2280F23CE4822D /* Classes */,
 			);
-			name = Classes;
-			path = Classes;
+			path = MMADPay;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -283,28 +287,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		11D63F74EED734D8586CF9FBC59EB612 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B2EBFFB31617155A93856E042BE13CDD /* MMADPay-umbrella.h in Headers */,
-				C8D6B2A085F287A0EABB51CCDF562DF1 /* MMADPayConstants.h in Headers */,
-				85201A1EAFF1F953ED5684DEC338F5DF /* MMADPayCreatePostData.h in Headers */,
-				F7B5D7110D70090F1B035A27699E15DC /* MMADPayHashes.h in Headers */,
-				9E35E1E8FD093F9A93AE8FF797B51650 /* MMADPayHeader.h in Headers */,
-				456CBBFAC1A9E179F432F32325BBE0DE /* MMADPayPaymentModelParams.h in Headers */,
-				14BDDC6AEE2CBB29332143C82FD98047 /* MMADPayPaymentViewController.h in Headers */,
-				8EBEDFA28A0D554B65B74FDCB662D66F /* MMADPayUtils.h in Headers */,
-				4227747C8D10BEFDEAEC1648E0388FAF /* MMADPayValidations.h in Headers */,
-				DC4E07D953BA4695EA22D96060A1D536 /* MMADPayWebserviceHandler.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8355574DA0DAA9F9C75D7DC7859B46DE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C5F188CBEDE946A2E78910356AA92A52 /* Pods-MMADPay_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49D8B450D5E68945E94E9078D5FA2F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F493F1C48159428B9BEBEFB5386C5C /* MMADPay-umbrella.h in Headers */,
+				84920F404AFE1839217B7ED2ACC21D6E /* MMADPayConstants.h in Headers */,
+				82656865477DF1AA3B4A8199DE1B26A8 /* MMADPayCreatePostData.h in Headers */,
+				8E38EE6E2E9785DB4604EAA499FADAE2 /* MMADPayHashes.h in Headers */,
+				AD378413D8988D4ECF3FFCCD3AECB77A /* MMADPayHeader.h in Headers */,
+				0CD5B118F7388859C91AB29969116303 /* MMADPayPaymentManager.h in Headers */,
+				203F99F7018D55FD7EBC1487F3579D9D /* MMADPayPaymentModelParams.h in Headers */,
+				BEB127D17FD1E21374271A29DB11514B /* MMADPayPaymentViewController.h in Headers */,
+				56DEE37389B1F87C14E061AAB1DBCDE1 /* MMADPayUtils.h in Headers */,
+				8B152F38D81733BDE39AB5D1EEFC50B8 /* MMADPayValidations.h in Headers */,
+				65758DA1A21FE430730EA284DEA6EEB8 /* MMADPayWebserviceHandler.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,13 +334,13 @@
 			productReference = 2D5B8162EEB130E23645E8DE917E53D9 /* Pods_MMADPay_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		670C989254AFDBFBF1F4F4CEDA1D18E8 /* MMADPay */ = {
+		A506818CDBE928D4D4E0365D6A86F94D /* MMADPay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B9FA7EACDD44CC2497046FFFE9B4EAE /* Build configuration list for PBXNativeTarget "MMADPay" */;
+			buildConfigurationList = 2D9F4A87D86D9079BBACAA2BD26D6ECB /* Build configuration list for PBXNativeTarget "MMADPay" */;
 			buildPhases = (
-				14EC1F7D6F1400B010A5DC0A4464B2C9 /* Sources */,
-				5AE6C8F607EAA39C95F995E9EC7381D7 /* Frameworks */,
-				11D63F74EED734D8586CF9FBC59EB612 /* Headers */,
+				F02FA7002391E9BE050AB242375E55FC /* Sources */,
+				3F11BCAB70708EB205BC8234E0CA9DDC /* Frameworks */,
+				A49D8B450D5E68945E94E9078D5FA2F6 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -384,7 +389,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				670C989254AFDBFBF1F4F4CEDA1D18E8 /* MMADPay */,
+				A506818CDBE928D4D4E0365D6A86F94D /* MMADPay */,
 				655E352235D0C6A28EF6BA85BE1E43B1 /* Pods-MMADPay_Example */,
 				EFFB23D82F0D586E0837E89CCD7FD213 /* Pods-MMADPay_Tests */,
 			);
@@ -392,22 +397,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		14EC1F7D6F1400B010A5DC0A4464B2C9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				820866489A7A302208B961A40ACD1C17 /* MMADPay-dummy.m in Sources */,
-				EC5FC8AE495678E3CE31F52B77FD70C6 /* MMADPayConstants.m in Sources */,
-				BA5852F52807DD1BA2EFC80450FF5CDD /* MMADPayCreatePostData.m in Sources */,
-				0787B919149D52BD45F6D038924DDDEE /* MMADPayHashes.m in Sources */,
-				4AF222720B8058BA61A1724E8AB60EE7 /* MMADPayPaymentModelParams.m in Sources */,
-				9006A4810153ADC1DAA7086DFD64DC1A /* MMADPayPaymentViewController.m in Sources */,
-				EFC74392DBF8FA4E7C08BC00A080CD23 /* MMADPayUtils.m in Sources */,
-				1E5A9332C5DD2E2CB1A8E9A650074D6C /* MMADPayValidations.m in Sources */,
-				7E7A17C6F856A3EC94F4CFB077F7EB00 /* MMADPayWebserviceHandler.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4486753EB1970CE6FB5F709A96A191A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -424,13 +413,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F02FA7002391E9BE050AB242375E55FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1522F70543D91E4984E56C7B65C264 /* MMADPay-dummy.m in Sources */,
+				6767B9670BACD269E7461374EF046527 /* MMADPayConstants.m in Sources */,
+				8636E0822A411F3ADCBA112D16063726 /* MMADPayCreatePostData.m in Sources */,
+				0D88B37DEEF22F6805FD372481176DB5 /* MMADPayHashes.m in Sources */,
+				3D9D8905D0C6F2733E54FE39D824C839 /* MMADPayPaymentManager.m in Sources */,
+				8E29A19578DBEC00C3750990C0189295 /* MMADPayPaymentModelParams.m in Sources */,
+				0B2954F946C52325C89444ACB2F140B9 /* MMADPayPaymentViewController.m in Sources */,
+				345E5F34F89A9D52151A24D6984D4147 /* MMADPayUtils.m in Sources */,
+				47C51AEA535E28F5C1928D5DE7EE36BB /* MMADPayValidations.m in Sources */,
+				332B75C66E7015B4F320A43E559FBB24 /* MMADPayWebserviceHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		A561EF65D5037A1FA39FEF6B22D14E59 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MMADPay;
-			target = 670C989254AFDBFBF1F4F4CEDA1D18E8 /* MMADPay */;
+			target = A506818CDBE928D4D4E0365D6A86F94D /* MMADPay */;
 			targetProxy = E1494DBC9A6DE1012975B99957110ED0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -620,7 +626,7 @@
 			};
 			name = Release;
 		};
-		AA071B37B020D835AC00FAB2BD2C6194 /* Debug */ = {
+		B3BA7384372359E6F598A4CF8CA2D71B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5082FB6DEF73383DCBB67C362EC55AEA /* MMADPay.xcconfig */;
 			buildSettings = {
@@ -691,7 +697,7 @@
 			};
 			name = Release;
 		};
-		B7E43F2D91BFEEC3426839A5ADF0DE49 /* Release */ = {
+		F879387FE13A4BBDBAB0A462E6956050 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5082FB6DEF73383DCBB67C362EC55AEA /* MMADPay.xcconfig */;
 			buildSettings = {
@@ -734,20 +740,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B9FA7EACDD44CC2497046FFFE9B4EAE /* Build configuration list for PBXNativeTarget "MMADPay" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AA071B37B020D835AC00FAB2BD2C6194 /* Debug */,
-				B7E43F2D91BFEEC3426839A5ADF0DE49 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
 				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D9F4A87D86D9079BBACAA2BD26D6ECB /* Build configuration list for PBXNativeTarget "MMADPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3BA7384372359E6F598A4CF8CA2D71B /* Debug */,
+				F879387FE13A4BBDBAB0A462E6956050 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

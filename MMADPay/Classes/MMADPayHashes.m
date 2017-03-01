@@ -21,7 +21,7 @@
     
     values = [NSMutableArray new];
     hashInfoString = [NSMutableString new];
-    keys = [[productInfo allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
+    keys = [[[productInfo allKeys] sortedArrayUsingSelector:@selector(localizedCaseInsensitiveCompare:)] mutableCopy];
     
     for (int i = 0; i < keys.count; i++) {
         [values addObject: [productInfo objectForKey:[keys objectAtIndex:i]]];

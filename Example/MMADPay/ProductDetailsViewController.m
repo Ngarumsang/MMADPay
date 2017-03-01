@@ -30,6 +30,7 @@ static NSString *merchantName = @"Mobile Integration";
     
     CGFloat price = [_productPrice floatValue]* 100;
     
+   
     productInfo = @{@"PAY_ID": payId,
                     @"ORDER_ID": [self getOrderId: @"Test product"],
                     @"TXNTYPE": @"SALE",
@@ -42,7 +43,9 @@ static NSString *merchantName = @"Mobile Integration";
                     @"CUST_EMAIL": @"nvashum07@gmail.com",
                     @"CUST_PHONE": @"8553070153",
                     @"RETURN_URL": @"http://www.demo.mmadpay.com/crm/jsp/iosResponse.jsp",
-                    @"PRODUCT_DESC":_productName};
+                    @"PRODUCT_DESC":_productName,
+                    @"SALT_KEY": salt,
+                    @"ENVIRONMENT_MODE": MMADPAY_ENVIRONMENT_TEST};
     
     
     
@@ -63,6 +66,7 @@ static NSString *merchantName = @"Mobile Integration";
 }
 
 - (void)subscribeToNotifications {
+    [self unsubscribeFromNotifications];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(paymentResponse:) name:kMMADPayEnablePaymentNotification object:nil];
 }
 
@@ -76,28 +80,10 @@ static NSString *merchantName = @"Mobile Integration";
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)buyNow:(id)sender {
+
+    MMADPayPaymentManager *paymentManager = [MMADPayPaymentManager sharedInstance];
+    [paymentManager processPaymentWithProductInfo:productInfo];
     
-    MMADPayHashes *hash = [MMADPayHashes new];
-    
-    MMADPayPaymentModelParams *params = [MMADPayPaymentModelParams new];
-    params.payID = payId;
-    params.orderID = [productInfo objectForKey:@"ORDER_ID"];
-    params.taxType = [productInfo objectForKey:@"TXNTYPE"];
-    params.merchantName = [productInfo objectForKey:@"MERCHANTNAME"];
-    params.amount = [productInfo objectForKey:@"AMOUNT"];
-    params.currencyCode = [productInfo objectForKey:@"CURRENCY_CODE"];
-    params.customerName = [productInfo objectForKey:@"CUST_NAME"];
-    params.customerStreeAddress1 = [productInfo objectForKey:@"CUST_STREET_ADDRESS1"];
-    params.customerZip = [productInfo objectForKey:@"CUST_ZIP"];
-    params.customerEmail = [productInfo objectForKey:@"CUST_EMAIL"];
-    params.customerPhone = [productInfo objectForKey:@"CUST_PHONE"];
-    params.returnURL = [productInfo objectForKey:@"RETURN_URL"];
-    params.productDescription = [productInfo objectForKey:@"PRODUCT_DESC"];
-    params.hashKey = [hash getPayHashProductInfo:productInfo withSalt:salt];
-    
-    MMADPayPaymentViewController *paymentVC = [MMADPayPaymentViewController new];
-    paymentVC.paramModel = params;
-    [self.navigationController pushViewController:paymentVC animated:YES];
     [self subscribeToNotifications];
     
     
@@ -148,7 +134,7 @@ static NSString *merchantName = @"Mobile Integration";
     
     NSInteger amount = [[responseObject objectForKey:@"AMOUNT"] integerValue];
     amount = amount/100;
-    successViewController.lblPrice.text = [NSString stringWithFormat:@"Rs %ld",amount];
+    successViewController.lblPrice.text = [NSString stringWithFormat:@"Rs %ld",(long)amount];
     successViewController.lblStatus.text = [responseObject objectForKey:@"STATUS"];
     successViewController.lblMessage.text = [responseObject objectForKey:@"PG_TXN_MESSAGE"];
     successViewController.lblTime.text = [responseObject objectForKey:@"RESPONSE_DATE_TIME"];

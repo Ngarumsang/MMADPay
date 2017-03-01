@@ -20,8 +20,6 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		871A0D0A1E001FDB002F91E1 /* SuccessView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 871A0D091E001FDB002F91E1 /* SuccessView.xib */; };
-		871A0D0D1E001FF4002F91E1 /* SuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 871A0D0C1E001FF4002F91E1 /* SuccessViewController.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8769B5561DFFD1C60083245A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		8769B5581DFFD70C0083245A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8769B5571DFFD70C0083245A /* LaunchScreen.storyboard */; };
@@ -32,6 +30,8 @@
 		8769B5631DFFD9DF0083245A /* iphone-7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8769B5621DFFD9DF0083245A /* iphone-7.jpeg */; };
 		8769B5661DFFDC560083245A /* MMADPayDemoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8769B5651DFFDC560083245A /* MMADPayDemoCollectionViewCell.m */; };
 		8769B5691DFFE3D60083245A /* ProductDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8769B5681DFFE3D60083245A /* ProductDetailsViewController.m */; };
+		8791045A1E095D73001464C8 /* SuccessView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 879104571E095D73001464C8 /* SuccessView.xib */; };
+		8791045B1E095D73001464C8 /* SuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 879104591E095D73001464C8 /* SuccessViewController.m */; };
 		CCF14A586A637E3AF8240E45 /* Pods_MMADPay_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF66B44ABEE655C96D1EB04A /* Pods_MMADPay_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,9 +67,6 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		871A0D091E001FDB002F91E1 /* SuccessView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuccessView.xib; sourceTree = "<group>"; };
-		871A0D0B1E001FF4002F91E1 /* SuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessViewController.h; sourceTree = "<group>"; };
-		871A0D0C1E001FF4002F91E1 /* SuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessViewController.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8769B5571DFFD70C0083245A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8769B55A1DFFD9CF0083245A /* timex-watch.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timex-watch.jpeg"; sourceTree = "<group>"; };
@@ -81,6 +78,9 @@
 		8769B5651DFFDC560083245A /* MMADPayDemoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMADPayDemoCollectionViewCell.m; sourceTree = "<group>"; };
 		8769B5671DFFE3D60083245A /* ProductDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailsViewController.h; sourceTree = "<group>"; };
 		8769B5681DFFE3D60083245A /* ProductDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailsViewController.m; sourceTree = "<group>"; };
+		879104571E095D73001464C8 /* SuccessView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuccessView.xib; sourceTree = "<group>"; };
+		879104581E095D73001464C8 /* SuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessViewController.h; sourceTree = "<group>"; };
+		879104591E095D73001464C8 /* SuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessViewController.m; sourceTree = "<group>"; };
 		9D0FC50C1E291766055F20FB /* Pods-MMADPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMADPay_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MMADPay_Example/Pods-MMADPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A3665F7DBFDCBBFE20AEC962 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AE0C4E29ACA8B30E5F23E800 /* Pods-MMADPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMADPay_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MMADPay_Tests/Pods-MMADPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -162,12 +162,12 @@
 				8769B5651DFFDC560083245A /* MMADPayDemoCollectionViewCell.m */,
 				8769B5671DFFE3D60083245A /* ProductDetailsViewController.h */,
 				8769B5681DFFE3D60083245A /* ProductDetailsViewController.m */,
+				879104571E095D73001464C8 /* SuccessView.xib */,
+				879104581E095D73001464C8 /* SuccessViewController.h */,
+				879104591E095D73001464C8 /* SuccessViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 				8769B5571DFFD70C0083245A /* LaunchScreen.storyboard */,
-				871A0D091E001FDB002F91E1 /* SuccessView.xib */,
-				871A0D0B1E001FF4002F91E1 /* SuccessViewController.h */,
-				871A0D0C1E001FF4002F91E1 /* SuccessViewController.m */,
 			);
 			name = "Example for MMADPay";
 			path = MMADPay;
@@ -330,7 +330,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				8769B55E1DFFD9CF0083245A /* timex-watch.jpeg in Resources */,
 				8769B5581DFFD70C0083245A /* LaunchScreen.storyboard in Resources */,
-				871A0D0A1E001FDB002F91E1 /* SuccessView.xib in Resources */,
+				8791045A1E095D73001464C8 /* SuccessView.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 				8769B5611DFFD9CF0083245A /* sennheiser-earpiece.jpeg in Resources */,
 				8769B5631DFFD9DF0083245A /* iphone-7.jpeg in Resources */,
@@ -449,7 +449,7 @@
 				6003F5A7195388D20070C39A /* MMADPayViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				8769B5661DFFDC560083245A /* MMADPayDemoCollectionViewCell.m in Sources */,
-				871A0D0D1E001FF4002F91E1 /* SuccessViewController.m in Sources */,
+				8791045B1E095D73001464C8 /* SuccessViewController.m in Sources */,
 				8769B5691DFFE3D60083245A /* ProductDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

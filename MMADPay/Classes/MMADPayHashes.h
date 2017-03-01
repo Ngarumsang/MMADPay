@@ -9,5 +9,14 @@
 #import <Foundation/Foundation.h>
 
 @interface MMADPayHashes : NSObject
+
+///-------------------------------
+/// @name Genereate Hash using the request information
+///-------------------------------
+
+/**
+ Create Hash key and return as string.
+ */
+
 - (NSString*)getPayHashProductInfo: (NSDictionary *)productInfo withSalt: (NSString *)saltKey;
 @end
